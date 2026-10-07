@@ -5,9 +5,15 @@
   "tasks": [
     {
       "number": 1,
-      "location": "Between H5 and G5",
+      "location": "Between F5 and G5",
       "description": "Electrical cover needs closed.",
       "images": ["photos/item-01-a.jpg"]
+    },
+    {
+      "number": 2,
+      "location": "Between D5 and F5, under tank 117",
+      "description": "Roll the solenoid valve so the coil is facing away from the steam line.",
+      "images": ["photos/item-02-a.jpg", "photos/item-02-b.jpg"]
     }
   ]
 }
