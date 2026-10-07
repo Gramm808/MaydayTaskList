@@ -7,13 +7,27 @@
       "number": 1,
       "location": "Between F5 and G5",
       "description": "Electrical cover needs closed.",
-      "images": ["photos/item-01-a.jpg"]
+      "images": [
+        "photos/item-01-a.jpg"
+      ]
     },
     {
       "number": 2,
       "location": "Between D5 and F5, under tank 117",
       "description": "Roll the solenoid valve so the coil is facing away from the steam line.",
-      "images": ["photos/item-02-a.jpg", "photos/item-02-b.jpg"]
+      "images": [
+        "photos/item-02-a.jpg",
+        "photos/item-02-b.jpg"
+      ]
+    },
+    {
+      "number": 3,
+      "location": "Under tank 117",
+      "description": "1/2 inch PVC line is very out of level and has a lot of downward tension on it. It needs repair.",
+      "images": [
+        "photos/item-03-a.jpg",
+        "photos/item-03-b.jpg"
+      ]
     }
   ]
 }
