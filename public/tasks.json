@@ -1,0 +1,13 @@
+{
+  "title": "Mayday Task List",
+  "subtitle": "Items to fix or complete",
+  "updated": "2026-10-07",
+  "tasks": [
+    {
+      "number": 1,
+      "location": "Sample location",
+      "description": "Sample item to show the layout. This gets replaced with the real list.",
+      "images": []
+    }
+  ]
+}

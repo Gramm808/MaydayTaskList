@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Task List</title>
+<style>
+  :root {
+    --bg: #f4f5f7; --card: #ffffff; --text: #16181d; --muted: #5c6370;
+    --line: #dfe2e8; --accent: #c8501e;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #121316; --card: #1c1e23; --text: #eceef2; --muted: #9aa1ae; --line: #2c2f36; --accent: #ff8a57; }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 17px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  header { padding: 20px 16px 8px; max-width: 760px; margin: 0 auto; }
+  h1 { margin: 0; font-size: 1.5rem; }
+  .sub { color: var(--muted); font-size: .95rem; margin-top: 2px; }
+  main { max-width: 760px; margin: 0 auto; padding: 8px 16px 40px; }
+  .card {
+    background: var(--card); border: 1px solid var(--line); border-radius: 12px;
+    margin: 12px 0; padding: 14px; overflow: hidden;
+  }
+  .top { display: flex; gap: 12px; align-items: flex-start; }
+  .num {
+    flex: none; min-width: 2.4em; height: 2.4em; padding: 0 .5em; border-radius: 1.2em;
+    background: var(--accent); color: #fff; font-weight: 700;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .loc { font-weight: 650; }
+  .desc { margin-top: 4px; white-space: pre-wrap; overflow-wrap: anywhere; }
+  .imgs { display: grid; gap: 8px; margin-top: 12px; grid-template-columns: 1fr; }
+  .imgs.multi { grid-template-columns: 1fr 1fr; }
+  .imgs a { display: block; }
+  .imgs img {
+    width: 100%; height: auto; display: block; border-radius: 8px;
+    background: var(--line); aspect-ratio: 4 / 3; object-fit: cover;
+  }
+  .imgs.multi img { aspect-ratio: 1 / 1; }
+  .note { color: var(--muted); text-align: center; padding: 24px 0; }
+</style>
+</head>
+<body>
+<header>
+  <h1 id="title">Task List</h1>
+  <div class="sub" id="sub"></div>
+</header>
+<main id="list"><div class="note">Loading…</div></main>
+
+<script>
+(async function () {
+  var list = document.getElementById('list');
+  try {
+    var res = await fetch('tasks.json', { cache: 'no-cache' });
+    if (!res.ok) throw new Error(res.status);
+    var data = await res.json();
+    if (data.title) { document.getElementById('title').textContent = data.title; document.title = data.title; }
+    var sub = [];
+    if (data.subtitle) sub.push(data.subtitle);
+    if (data.updated) sub.push('Updated ' + data.updated);
+    sub.push((data.tasks || []).length + ' items');
+    document.getElementById('sub').textContent = sub.join(' · ');
+
+    list.textContent = '';
+    (data.tasks || []).forEach(function (t) {
+      var card = document.createElement('section');
+      card.className = 'card';
+
+      var top = document.createElement('div'); top.className = 'top';
+      var num = document.createElement('div'); num.className = 'num'; num.textContent = t.number;
+      var body = document.createElement('div');
+      var loc = document.createElement('div'); loc.className = 'loc'; loc.textContent = t.location || '';
+      var desc = document.createElement('div'); desc.className = 'desc'; desc.textContent = t.description || '';
+      body.appendChild(loc); body.appendChild(desc);
+      top.appendChild(num); top.appendChild(body);
+      card.appendChild(top);
+
+      var imgs = t.images || [];
+      if (imgs.length) {
+        var grid = document.createElement('div');
+        grid.className = 'imgs' + (imgs.length > 1 ? ' multi' : '');
+        imgs.forEach(function (src) {
+          var a = document.createElement('a'); a.href = src; a.target = '_blank'; a.rel = 'noopener';
+          var im = document.createElement('img'); im.src = src; im.loading = 'lazy';
+          im.alt = 'Item ' + t.number + (t.location ? ' – ' + t.location : '');
+          a.appendChild(im); grid.appendChild(a);
+        });
+        card.appendChild(grid);
+      }
+      list.appendChild(card);
+    });
+    if (!(data.tasks || []).length) list.innerHTML = '<div class="note">No items yet.</div>';
+  } catch (e) {
+    list.innerHTML = '<div class="note">Could not load the task list.</div>';
+  }
+})();
+</script>
+</body>
+</html>
