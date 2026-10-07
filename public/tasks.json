@@ -37,6 +37,14 @@
         "photos/item-04-a.jpg",
         "photos/item-05-a.jpg"
       ]
+    },
+    {
+      "number": 5,
+      "location": "Under tank 101",
+      "description": "Steam trap and condensate line are much too close to both the conduit and the Alkaline Acid waste line.",
+      "images": [
+        "photos/item-05-b.jpg"
+      ]
     }
   ]
 }
