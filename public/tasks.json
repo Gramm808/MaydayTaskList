@@ -77,6 +77,16 @@
       "images": [
         "photos/item-09-a.jpg"
       ]
+    },
+    {
+      "number": 10,
+      "location": "Under tank 531",
+      "description": "Install a piece of strut to support the conduit that supplies the solenoid valve.",
+      "images": [
+        "photos/item-10-a.jpg",
+        "photos/item-10-b.jpg",
+        "photos/item-10-c.jpg"
+      ]
     }
   ]
 }
