@@ -53,6 +53,14 @@
       "images": [
         "photos/item-06-a.jpg"
       ]
+    },
+    {
+      "number": 7,
+      "location": "Cyanide rinse tank, basement",
+      "description": "Electrical box cover is missing.",
+      "images": [
+        "photos/item-07-a.jpg"
+      ]
     }
   ]
 }
