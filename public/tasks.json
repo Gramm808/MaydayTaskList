@@ -69,6 +69,14 @@
       "images": [
         "photos/item-08-a.jpg"
       ]
+    },
+    {
+      "number": 9,
+      "location": "Under tank 537",
+      "description": "Air agitation line needs to be leveled (circled in photo).",
+      "images": [
+        "photos/item-09-a.jpg"
+      ]
     }
   ]
 }
