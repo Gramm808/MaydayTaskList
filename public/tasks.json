@@ -45,6 +45,14 @@
       "images": [
         "photos/item-05-b.jpg"
       ]
+    },
+    {
+      "number": 6,
+      "location": "Under tank 129",
+      "description": "Conduit cover needs to be secured. It is missing the screw.",
+      "images": [
+        "photos/item-06-a.jpg"
+      ]
     }
   ]
 }
