@@ -36,6 +36,14 @@
       "images": [
         "photos/item-04-a.jpg"
       ]
+    },
+    {
+      "number": 5,
+      "location": "Under tanks 119, 106 and 103",
+      "description": "Unnecessary piece of unistrut to be removed, about 8 in long. Count: 3 (one under each tank). Photo shows a typical one.",
+      "images": [
+        "photos/item-05-a.jpg"
+      ]
     }
   ]
 }
