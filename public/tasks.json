@@ -28,6 +28,14 @@
         "photos/item-03-a.jpg",
         "photos/item-03-b.jpg"
       ]
+    },
+    {
+      "number": 4,
+      "location": "Under tank 114",
+      "description": "Unused piece of unistrut to be removed. About 8 in long.",
+      "images": [
+        "photos/item-04-a.jpg"
+      ]
     }
   ]
 }
