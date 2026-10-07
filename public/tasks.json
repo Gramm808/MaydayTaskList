@@ -5,9 +5,9 @@
   "tasks": [
     {
       "number": 1,
-      "location": "Sample location",
-      "description": "Sample item to show the layout. This gets replaced with the real list.",
-      "images": []
+      "location": "Between H5 and G5",
+      "description": "Electrical cover needs closed.",
+      "images": ["photos/item-01-a.jpg"]
     }
   ]
 }
