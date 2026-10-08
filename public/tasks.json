@@ -56,7 +56,8 @@
       "description": "Conduit cover needs to be secured. It is missing the screw.",
       "images": [
         "photos/item-06-a.jpg"
-      ]
+      ],
+      "done": true
     },
     {
       "number": 7,
