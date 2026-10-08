@@ -9,7 +9,8 @@
       "description": "Electrical cover needs closed.",
       "images": [
         "photos/item-01-a.jpg"
-      ]
+      ],
+      "done": true
     },
     {
       "number": 2,
@@ -18,7 +19,8 @@
       "images": [
         "photos/item-02-a.jpg",
         "photos/item-02-b.jpg"
-      ]
+      ],
+      "done": true
     },
     {
       "number": 3,
@@ -27,7 +29,8 @@
       "images": [
         "photos/item-03-a.jpg",
         "photos/item-03-b.jpg"
-      ]
+      ],
+      "done": true
     },
     {
       "number": 4,
@@ -36,7 +39,8 @@
       "images": [
         "photos/item-04-a.jpg",
         "photos/item-05-a.jpg"
-      ]
+      ],
+      "done": true
     },
     {
       "number": 5,
@@ -60,7 +64,8 @@
       "description": "Electrical box cover is missing.",
       "images": [
         "photos/item-07-a.jpg"
-      ]
+      ],
+      "done": true
     },
     {
       "number": 8,
@@ -76,7 +81,8 @@
       "description": "Air agitation line needs to be leveled (circled in photo).",
       "images": [
         "photos/item-09-a.jpg"
-      ]
+      ],
+      "done": true
     },
     {
       "number": 10,
@@ -86,7 +92,8 @@
         "photos/item-10-a.jpg",
         "photos/item-10-b.jpg",
         "photos/item-10-c.jpg"
-      ]
+      ],
+      "done": true
     },
     {
       "number": 11,
