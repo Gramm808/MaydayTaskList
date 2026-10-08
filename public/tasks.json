@@ -110,6 +110,14 @@
       "images": [
         "photos/item-12-a.jpg"
       ]
+    },
+    {
+      "number": 13,
+      "location": "Under tanks 117 / 118",
+      "description": "LB electrical cover is missing (circled in photo).",
+      "images": [
+        "photos/item-13-a.jpg"
+      ]
     }
   ]
 }
