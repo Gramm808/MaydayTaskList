@@ -1,7 +1,7 @@
 {
   "title": "Mayday Task List",
   "subtitle": "Items to fix or complete",
-  "updated": "2026-10-07",
+  "updated": "2026-10-08",
   "tasks": [
     {
       "number": 1,
@@ -86,6 +86,14 @@
         "photos/item-10-a.jpg",
         "photos/item-10-b.jpg",
         "photos/item-10-c.jpg"
+      ]
+    },
+    {
+      "number": 11,
+      "location": "Under tank 103",
+      "description": "The junction box cover hanging from the box is the wrong size. It is too small.",
+      "images": [
+        "photos/item-11-a.jpg"
       ]
     }
   ]
