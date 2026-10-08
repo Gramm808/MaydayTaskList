@@ -95,6 +95,14 @@
       "images": [
         "photos/item-11-a.jpg"
       ]
+    },
+    {
+      "number": 12,
+      "location": "Under tank 105",
+      "description": "LB tee fitting has a green ground wire and a white common wire hanging out of it that are not connected to anything. They prevent the cover from closing.",
+      "images": [
+        "photos/item-12-a.jpg"
+      ]
     }
   ]
 }
