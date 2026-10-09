@@ -1,10 +1,11 @@
 {
   "title": "Mayday Task List",
   "subtitle": "Items to fix or complete",
-  "updated": "2026-10-08",
+  "updated": "2026-10-09",
   "tasks": [
     {
-      "number": 1,
+      "id": "E-1",
+      "category": "electrical",
       "location": "Between F5 and G5",
       "description": "Electrical cover needs closed.",
       "images": [
@@ -13,7 +14,8 @@
       "done": true
     },
     {
-      "number": 2,
+      "id": "M-1",
+      "category": "mechanical",
       "location": "Between D5 and F5, under tank 117",
       "description": "Roll the solenoid valve so the coil is facing away from the steam line.",
       "images": [
@@ -23,7 +25,8 @@
       "done": true
     },
     {
-      "number": 3,
+      "id": "M-2",
+      "category": "mechanical",
       "location": "Under tank 117",
       "description": "1/2 inch PVC line is very out of level and has a lot of downward tension on it. It needs repair.",
       "images": [
@@ -33,7 +36,8 @@
       "done": true
     },
     {
-      "number": 4,
+      "id": "M-3",
+      "category": "mechanical",
       "location": "Under tanks 114, 119, 106, 103 and 223",
       "description": "Unnecessary piece of unistrut to be removed. Count: 5 (one under each tank). The ones under tanks 114, 119, 106 and 103 are about 8 in long. The one below tank 223 is small and has sharp edges.",
       "images": [
@@ -43,7 +47,8 @@
       "done": true
     },
     {
-      "number": 5,
+      "id": "M-4",
+      "category": "mechanical",
       "location": "Under tank 101",
       "description": "Steam trap and condensate line are much too close to both the conduit and the Alkaline Acid waste line.",
       "images": [
@@ -51,7 +56,8 @@
       ]
     },
     {
-      "number": 6,
+      "id": "E-2",
+      "category": "electrical",
       "location": "Under tank 129",
       "description": "Conduit cover needs to be secured. It is missing the screw.",
       "images": [
@@ -60,7 +66,8 @@
       "done": true
     },
     {
-      "number": 7,
+      "id": "E-3",
+      "category": "electrical",
       "location": "Cyanide rinse tank, basement",
       "description": "Electrical box cover is missing.",
       "images": [
@@ -69,7 +76,8 @@
       "done": true
     },
     {
-      "number": 8,
+      "id": "M-5",
+      "category": "mechanical",
       "location": "Basement, multiple locations",
       "description": "At least 40 pieces of unistrut are laying on bottom beam flanges and are not secured to the beams. Clamps are on order. When they arrive, install one clamp on each piece to secure it.",
       "images": [
@@ -77,7 +85,8 @@
       ]
     },
     {
-      "number": 9,
+      "id": "M-6",
+      "category": "mechanical",
       "location": "Under tank 537",
       "description": "Air agitation line needs to be leveled (circled in photo).",
       "images": [
@@ -86,7 +95,8 @@
       "done": true
     },
     {
-      "number": 10,
+      "id": "E-4",
+      "category": "electrical",
       "location": "Under tank 531",
       "description": "Install a piece of strut to support the conduit that supplies the solenoid valve.",
       "images": [
@@ -97,7 +107,8 @@
       "done": true
     },
     {
-      "number": 11,
+      "id": "E-5",
+      "category": "electrical",
       "location": "Under tank 103",
       "description": "The junction box cover hanging from the box is the wrong size. It is too small.",
       "images": [
@@ -105,7 +116,8 @@
       ]
     },
     {
-      "number": 12,
+      "id": "E-6",
+      "category": "electrical",
       "location": "Under tank 105",
       "description": "LB tee fitting has a green ground wire and a white common wire hanging out of it that are not connected to anything. They prevent the cover from closing.",
       "images": [
@@ -113,7 +125,8 @@
       ]
     },
     {
-      "number": 13,
+      "id": "E-7",
+      "category": "electrical",
       "location": "Under tanks 117 / 118",
       "description": "LB electrical cover is missing (circled in photo).",
       "images": [
