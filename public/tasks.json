@@ -1,7 +1,7 @@
 {
   "title": "Mayday Task List",
   "subtitle": "Items to fix or complete",
-  "updated": "2026-10-09",
+  "updated": "2026-10-10",
   "tasks": [
     {
       "id": "E-1",
@@ -131,6 +131,15 @@
       "description": "LB electrical cover is missing (circled in photo).",
       "images": [
         "photos/item-13-a.jpg"
+      ]
+    },
+    {
+      "id": "E-8",
+      "category": "electrical",
+      "location": "Under tank 430",
+      "description": "Open box with red, white and green wires unfinished. A branch line to the box connects to a steam solenoid valve on tank 233.",
+      "images": [
+        "photos/item-14-a.jpg"
       ]
     }
   ]
