@@ -1,7 +1,7 @@
 {
   "title": "Mayday Task List",
   "subtitle": "Items to fix or complete",
-  "updated": "2026-10-12",
+  "updated": "2026-10-14",
   "tasks": [
     {
       "id": "E-1",
@@ -149,6 +149,15 @@
       "description": "Two open-ended conduits. One has a common (white) and a ground (green) wire hanging out of it.",
       "images": [
         "photos/item-15-a.jpg"
+      ]
+    },
+    {
+      "id": "M-7",
+      "category": "mechanical",
+      "location": "Chromate glycol loop, return line between tap 1 & 2",
+      "description": "Leak at union. Rework entire fitting, loose joints.",
+      "images": [
+        "photos/item-16-a.jpg"
       ]
     }
   ]
