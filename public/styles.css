@@ -86,3 +86,18 @@ details.done-group > summary .count { color: var(--muted); font-weight: 500; }
 
 /* Content pages */
 .content { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 16px; margin-top: 16px; }
+
+/* Work standard pages */
+.std .intro { margin: 8px 0 0; }
+.std section { margin-top: 28px; scroll-margin-top: 12px; }
+.std h2 { font-size: 1.2rem; margin: 0 0 8px; padding-left: 10px; border-left: 5px solid var(--std); }
+.std ol { list-style: none; margin: 0; padding: 0; }
+.std li { display: flex; gap: 12px; padding: 12px 0; border-top: 1px solid var(--line); }
+.std li:first-child { border-top: 0; }
+.std li .n { flex: none; min-width: 2.6em; font-weight: 700; color: var(--std); }
+.std li .t { flex: 1; overflow-wrap: anywhere; }
+.std a { color: var(--std); font-weight: 600; }
+.std .supp { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 16px; }
+.std .supp h2 { margin-top: 0; }
+.std .supp p { margin: 8px 0; }
+.std .supp .small { color: var(--muted); font-size: .92rem; }
