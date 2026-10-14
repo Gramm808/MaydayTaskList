@@ -159,6 +159,15 @@
       "images": [
         "photos/item-16-a.jpg"
       ]
+    },
+    {
+      "id": "M-8",
+      "category": "mechanical",
+      "location": "Chromate glycol loop, supply line port 3",
+      "description": "Leak at a bad nipple.",
+      "images": [
+        "photos/item-17-a.jpg"
+      ]
     }
   ]
 }
