@@ -240,6 +240,15 @@
       "images": [
         "photos/item-25-a.jpg"
       ]
+    },
+    {
+      "id": "M-16",
+      "category": "mechanical",
+      "location": "Air agitation blowers",
+      "description": "Blower piping needs to be reworked and installed per the provided design. The high pressure exhaust valves are installed inline and should have been exhausted at a tee connection below the grating. While the rework is done, an additional flanged take-off should be installed. See Jerry Mak for details and sketch.",
+      "images": [
+        "photos/item-26-a.jpg"
+      ]
     }
   ]
 }
