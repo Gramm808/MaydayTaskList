@@ -195,6 +195,15 @@
       "images": [
         "photos/item-20-a.jpg"
       ]
+    },
+    {
+      "id": "M-12",
+      "category": "mechanical",
+      "location": "Tank 223",
+      "description": "Chilled water leak.",
+      "images": [
+        "photos/item-21-a.jpg"
+      ]
     }
   ]
 }
