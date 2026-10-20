@@ -288,6 +288,15 @@
       "images": [
         "photos/item-30-a.jpg"
       ]
+    },
+    {
+      "id": "M-20",
+      "category": "mechanical",
+      "location": "Electro clean tanks",
+      "description": "Install missing anode/cathode bars on the electro clean tanks.",
+      "images": [
+        "photos/item-31-a.jpg"
+      ]
     }
   ]
 }
