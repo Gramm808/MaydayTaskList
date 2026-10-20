@@ -249,6 +249,18 @@
       "images": [
         "photos/item-26-a.jpg"
       ]
+    },
+    {
+      "id": "M-17",
+      "category": "mechanical",
+      "location": "Fume hoods, tanks 103 and 112",
+      "description": "Connect fume hoods to exhaust system. The ducts are able to clear the iron framework on tanks 103 and 112 with plenty of clearance to the bridge crane. Why were the offsets requiring 2 extra 45's per duct needed?",
+      "images": [
+        "photos/item-27-a.jpg",
+        "photos/item-27-b.jpg",
+        "photos/item-27-c.jpg",
+        "photos/item-27-d.jpg"
+      ]
     }
   ]
 }
