@@ -293,7 +293,7 @@
       "id": "M-20",
       "category": "mechanical",
       "location": "Electro clean tanks",
-      "description": "Install missing anode/cathode bars on the electro clean tanks.",
+      "description": "Install missing anode/cathode bars on the electro clean tanks. Materials are on order and in process but not onsite yet.",
       "images": [
         "photos/item-31-a.jpg"
       ]
@@ -315,6 +315,13 @@
       "images": [
         "photos/item-33-a.jpg"
       ]
+    },
+    {
+      "id": "E-14",
+      "category": "electrical",
+      "location": "Rectifiers and control boxes",
+      "description": "Install rectifier control cabling between the rectifiers and the control boxes.",
+      "images": []
     }
   ]
 }
