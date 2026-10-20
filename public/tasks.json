@@ -261,6 +261,15 @@
         "photos/item-27-c.jpg",
         "photos/item-27-d.jpg"
       ]
+    },
+    {
+      "id": "M-18",
+      "category": "mechanical",
+      "location": "Chromate freeze out tanks",
+      "description": "Install flexible chilled glycol hoses on the chromate freeze out tanks when material arrives.",
+      "images": [
+        "photos/item-28-a.jpg"
+      ]
     }
   ]
 }
