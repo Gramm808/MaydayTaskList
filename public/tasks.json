@@ -279,6 +279,15 @@
       "images": [
         "photos/item-29-a.jpg"
       ]
+    },
+    {
+      "id": "E-11",
+      "category": "electrical",
+      "location": "All tanks",
+      "description": "Make cable connections to the anode and cathode bars on each tank.",
+      "images": [
+        "photos/item-30-a.jpg"
+      ]
     }
   ]
 }
