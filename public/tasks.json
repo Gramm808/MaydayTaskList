@@ -306,6 +306,15 @@
       "images": [
         "photos/item-32-a.jpg"
       ]
+    },
+    {
+      "id": "E-13",
+      "category": "electrical",
+      "location": "Hoist electrical connection point",
+      "description": "Fix the hoist electrical connection point. The connections are hanging down and the hoist motor comes in contact with them.",
+      "images": [
+        "photos/item-33-a.jpg"
+      ]
     }
   ]
 }
