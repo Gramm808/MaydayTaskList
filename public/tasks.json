@@ -297,6 +297,15 @@
       "images": [
         "photos/item-31-a.jpg"
       ]
+    },
+    {
+      "id": "E-12",
+      "category": "electrical",
+      "location": "Hoist power rail connection points",
+      "description": "Install missing clips or covers on the hoist power rail connection points.",
+      "images": [
+        "photos/item-32-a.jpg"
+      ]
     }
   ]
 }
