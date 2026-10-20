@@ -222,6 +222,15 @@
       "images": [
         "photos/item-23-a.jpg"
       ]
+    },
+    {
+      "id": "E-10",
+      "category": "electrical",
+      "location": "Rectifiers",
+      "description": "Rectifier cabling is putting too much weight on the rectifier connection points. Cable management concern: excessive cable lengths.",
+      "images": [
+        "photos/item-24-a.jpg"
+      ]
     }
   ]
 }
