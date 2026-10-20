@@ -1,7 +1,7 @@
 {
   "title": "Mayday Task List",
   "subtitle": "Items to fix or complete",
-  "updated": "2026-10-14",
+  "updated": "2026-10-20",
   "tasks": [
     {
       "id": "E-1",
@@ -176,6 +176,15 @@
       "description": "Leak.",
       "images": [
         "photos/item-18-a.jpg"
+      ]
+    },
+    {
+      "id": "M-10",
+      "category": "mechanical",
+      "location": "Tank 114",
+      "description": "Chilled water leak.",
+      "images": [
+        "photos/item-19-a.jpg"
       ]
     }
   ]
