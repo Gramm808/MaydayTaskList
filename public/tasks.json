@@ -186,6 +186,15 @@
       "images": [
         "photos/item-19-a.jpg"
       ]
+    },
+    {
+      "id": "M-11",
+      "category": "mechanical",
+      "location": "Tank 211",
+      "description": "Leak on chilled water connection.",
+      "images": [
+        "photos/item-20-a.jpg"
+      ]
     }
   ]
 }
