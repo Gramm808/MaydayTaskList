@@ -1,7 +1,7 @@
 {
   "title": "Mayday Task List",
   "subtitle": "Items to fix or complete",
-  "updated": "2026-10-20",
+  "updated": "2026-10-22",
   "tasks": [
     {
       "id": "E-1",
@@ -322,6 +322,16 @@
       "location": "Rectifiers and control boxes",
       "description": "Install rectifier control cabling between the rectifiers and the control boxes.",
       "images": []
+    },
+    {
+      "id": "M-21",
+      "category": "mechanical",
+      "location": "Exhaust ducts",
+      "description": "Install duct support cradles between the duct and the unistrut to prevent duct deformation. Some ducts are already getting flat spots.",
+      "images": [
+        "photos/item-34-a.jpg",
+        "photos/item-34-b.jpg"
+      ]
     }
   ]
 }
