@@ -359,6 +359,15 @@
       "images": [
         "photos/item-37-a.jpg"
       ]
+    },
+    {
+      "id": "E-15",
+      "category": "electrical",
+      "location": "Dryers (3)",
+      "description": "Install high temperature limit switches on the 3 dryers.",
+      "images": [
+        "photos/item-38-a.jpg"
+      ]
     }
   ]
 }
