@@ -341,6 +341,15 @@
       "images": [
         "photos/item-35-a.jpg"
       ]
+    },
+    {
+      "id": "M-23",
+      "category": "mechanical",
+      "location": "Tanks 306 and 307",
+      "description": "Install fume hood ducting on tanks 306 and 307.",
+      "images": [
+        "photos/item-36-a.jpg"
+      ]
     }
   ]
 }
