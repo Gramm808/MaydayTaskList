@@ -332,6 +332,15 @@
         "photos/item-34-a.jpg",
         "photos/item-34-b.jpg"
       ]
+    },
+    {
+      "id": "M-22",
+      "category": "mechanical",
+      "location": "Tank 308",
+      "description": "Duct penetration to the trunk for tank 308 is installed backwards (see red arrows in photo).",
+      "images": [
+        "photos/item-35-a.jpg"
+      ]
     }
   ]
 }
