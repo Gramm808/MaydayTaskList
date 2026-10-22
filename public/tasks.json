@@ -350,6 +350,15 @@
       "images": [
         "photos/item-36-a.jpg"
       ]
+    },
+    {
+      "id": "M-24",
+      "category": "mechanical",
+      "location": "Tank 533",
+      "description": "Install duct on tank 533.",
+      "images": [
+        "photos/item-37-a.jpg"
+      ]
     }
   ]
 }
