@@ -378,6 +378,15 @@
         "photos/item-39-a.jpg",
         "photos/item-39-b.jpg"
       ]
+    },
+    {
+      "id": "M-25",
+      "category": "mechanical",
+      "location": "Tank 517",
+      "description": "Chilled water line and steam line are on top of each other and will prevent installing steam insulation. Materials: 1 in PVC, (4) 45s, (1) coupling, (3) 90s.",
+      "images": [
+        "photos/item-40-a.jpg"
+      ]
     }
   ]
 }
