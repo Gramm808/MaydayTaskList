@@ -368,6 +368,16 @@
       "images": [
         "photos/item-38-a.jpg"
       ]
+    },
+    {
+      "id": "E-16",
+      "category": "electrical",
+      "location": "Air agitation control boxes",
+      "description": "Install breakers in the air agitation control boxes and connect 480V control power to the operator circuit.",
+      "images": [
+        "photos/item-39-a.jpg",
+        "photos/item-39-b.jpg"
+      ]
     }
   ]
 }
