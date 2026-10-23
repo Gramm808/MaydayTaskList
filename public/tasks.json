@@ -391,6 +391,16 @@
       "images": [
         "photos/item-40-a.jpg"
       ]
+    },
+    {
+      "id": "M-26",
+      "category": "mechanical",
+      "location": "Exhaust duct over tanks 109 and 111",
+      "description": "Duct supports need to be moved so they are not at the point of duct diameter change. The duct on either side of the reducer fittings should be supported on both sides of the tee.",
+      "images": [
+        "photos/item-41-a.jpg",
+        "photos/item-41-b.jpg"
+      ]
     }
   ]
 }
