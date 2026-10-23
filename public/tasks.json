@@ -1,7 +1,7 @@
 {
   "title": "Mayday Task List",
   "subtitle": "Items to fix or complete",
-  "updated": "2026-10-22",
+  "updated": "2026-10-23",
   "tasks": [
     {
       "id": "E-1",
@@ -257,8 +257,8 @@
     {
       "id": "M-17",
       "category": "mechanical",
-      "location": "Fume hoods, tanks 103 and 112",
-      "description": "Connect fume hoods to exhaust system. The ducts are able to clear the iron framework on tanks 103 and 112 with plenty of clearance to the bridge crane. Why were the offsets requiring 2 extra 45's per duct needed?",
+      "location": "Tanks 101-107",
+      "description": "Make fume hood duct connections. If the overhead horizontal duct was cut between tanks 107 and 108 and a 13.5\" spacer/extension installed, it would push the duct over so the six holes lined up with the fume hoods.",
       "images": [
         "photos/item-27-a.jpg",
         "photos/item-27-b.jpg",
