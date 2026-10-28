@@ -440,6 +440,15 @@
       "images": [
         "photos/item-45-a.jpg"
       ]
+    },
+    {
+      "id": "M-31",
+      "category": "mechanical",
+      "location": "Tank 114, drain valve",
+      "description": "The drain valve has an open port. Determine whether it should be blanked off or the valve outlet capped.",
+      "images": [
+        "photos/item-46-a.jpg"
+      ]
     }
   ]
 }
