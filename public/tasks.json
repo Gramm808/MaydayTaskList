@@ -82,7 +82,8 @@
       "description": "At least 40 pieces of unistrut are laying on bottom beam flanges and are not secured to the beams. Clamps are on order. When they arrive, install one clamp on each piece to secure it.",
       "images": [
         "photos/item-08-a.jpg"
-      ]
+      ],
+      "done": true
     },
     {
       "id": "M-6",
