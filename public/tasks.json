@@ -449,6 +449,15 @@
       "images": [
         "photos/item-46-a.jpg"
       ]
+    },
+    {
+      "id": "M-32",
+      "category": "mechanical",
+      "location": "Chromate freeze out tanks",
+      "description": "Install a unistrut track and trolley mounting system on the chromate freeze out tanks as shown in the example image (AI generated). The image shows the unistrut notched, but that is incorrect. The strut will only be cut to length.",
+      "images": [
+        "photos/item-47-a.jpg"
+      ]
     }
   ]
 }
