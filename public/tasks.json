@@ -458,6 +458,15 @@
       "images": [
         "photos/item-47-a.jpg"
       ]
+    },
+    {
+      "id": "M-33",
+      "category": "mechanical",
+      "location": "Chilled water coils",
+      "description": "Recount all chilled water coils. Unistrut mount kits were ordered on Oct 28. When they arrive, the unistrut needs to be cut into 32\" lengths. The pieces were ordered as 8 ft (96\") sticks and each stick must yield 3 pieces. No extras were ordered. See Jerry Mak for additional details when material arrives.",
+      "images": [
+        "photos/item-48-a.jpg"
+      ]
     }
   ]
 }
