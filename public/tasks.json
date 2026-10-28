@@ -431,6 +431,15 @@
       "images": [
         "photos/item-44-a.jpg"
       ]
+    },
+    {
+      "id": "M-30",
+      "category": "mechanical",
+      "location": "Tank 211 (example) and other tanks",
+      "description": "RTDs should not be mounted directly next to the heat exchange coils. Tank 211 is shown as an example, but other tanks have the same problem.",
+      "images": [
+        "photos/item-45-a.jpg"
+      ]
     }
   ]
 }
