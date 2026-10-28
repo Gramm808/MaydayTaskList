@@ -422,6 +422,15 @@
         "photos/item-43-a.jpg",
         "photos/item-43-b.jpg"
       ]
+    },
+    {
+      "id": "M-29",
+      "category": "mechanical",
+      "location": "All tanks",
+      "description": "Review each tank and move components that are in the way of electrodes or other non-negotiable position items. Potential items to move include pumps, RTDs, etc.",
+      "images": [
+        "photos/item-44-a.jpg"
+      ]
     }
   ]
 }
