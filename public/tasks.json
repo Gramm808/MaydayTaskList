@@ -412,6 +412,16 @@
         "photos/item-42-b.jpg",
         "photos/item-42-c.jpg"
       ]
+    },
+    {
+      "id": "M-28",
+      "category": "mechanical",
+      "location": "Electro clean tanks",
+      "description": "Install 12 electrode bar mounts on the electro clean tanks. 2 in the front and 2 in the back, spaced as evenly as possible.",
+      "images": [
+        "photos/item-43-a.jpg",
+        "photos/item-43-b.jpg"
+      ]
     }
   ]
 }
