@@ -1,7 +1,7 @@
 {
   "title": "Mayday Task List",
   "subtitle": "Items to fix or complete",
-  "updated": "2026-10-23",
+  "updated": "2026-10-28",
   "tasks": [
     {
       "id": "E-1",
@@ -400,6 +400,17 @@
       "images": [
         "photos/item-41-a.jpg",
         "photos/item-41-b.jpg"
+      ]
+    },
+    {
+      "id": "M-27",
+      "category": "mechanical",
+      "location": "All tanks (most tanks need this done)",
+      "description": "Adjust the position of all tank valves to make them easier to reach. This should not require any pipework. Loosen the valve union, rotate the valve 90 degrees, then re-tighten.",
+      "images": [
+        "photos/item-42-a.jpg",
+        "photos/item-42-b.jpg",
+        "photos/item-42-c.jpg"
       ]
     }
   ]
