@@ -416,8 +416,8 @@
     {
       "id": "M-28",
       "category": "mechanical",
-      "location": "Electro clean tanks",
-      "description": "Install 12 electrode bar mounts on the electro clean tanks. 2 in the front and 2 in the back, spaced as evenly as possible.",
+      "location": "Electro clean tanks 103, 303 and 503",
+      "description": "There are 3 electro clean tanks, numbered 103, 303 and 503. Install 12 electrode bar mounts on the electro clean tanks. 2 in the front and 2 in the back, spaced as evenly as possible.",
       "images": [
         "photos/item-43-a.jpg",
         "photos/item-43-b.jpg"
@@ -445,9 +445,10 @@
       "id": "M-31",
       "category": "mechanical",
       "location": "Tank 114, drain valve",
-      "description": "The drain valve has an open port. Determine whether it should be blanked off or the valve outlet capped.",
+      "description": "Remove the ball valve and install the blind flange that is tied to the valve.",
       "images": [
-        "photos/item-46-a.jpg"
+        "photos/item-49-a.jpg",
+        "photos/item-49-b.jpg"
       ]
     },
     {
@@ -463,7 +464,7 @@
       "id": "M-33",
       "category": "mechanical",
       "location": "Chilled water coils",
-      "description": "Recount all chilled water coils. Unistrut mount kits were ordered on Oct 28. When they arrive, the unistrut needs to be cut into 32\" lengths. The pieces were ordered as 8 ft (96\") sticks and each stick must yield 3 pieces. No extras were ordered. See Jerry Mak for additional details when material arrives.",
+      "description": "Recount coils.",
       "images": [
         "photos/item-48-a.jpg"
       ]
