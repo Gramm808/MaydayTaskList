@@ -468,6 +468,15 @@
       "images": [
         "photos/item-48-a.jpg"
       ]
+    },
+    {
+      "id": "M-34",
+      "category": "mechanical",
+      "location": "Electrode bar mount, back left",
+      "description": "Move the back left electrode bar mount 7 inches toward the center of the tank.",
+      "images": [
+        "photos/item-50-a.jpg"
+      ]
     }
   ]
 }
