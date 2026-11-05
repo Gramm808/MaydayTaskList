@@ -536,6 +536,17 @@
         "photos/item-53-a.jpg",
         "photos/item-53-b.jpg"
       ]
+    },
+    {
+      "id": "M-37",
+      "category": "mechanical",
+      "location": "Freeze out tanks; warehouse side, area marked in red",
+      "description": "Take all the stainless pipe and fittings that were removed from the freeze out tanks and place them in the area marked in red on the warehouse side (first photo). In between other tasks, while waiting for instructions, disassemble all the pipe and fittings and organize them.",
+      "images": [
+        "photos/item-55-a.jpg",
+        "photos/item-55-b.jpg",
+        "photos/item-55-c.jpg"
+      ]
     }
   ]
 }
