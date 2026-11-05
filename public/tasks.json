@@ -563,6 +563,16 @@
       "images": [
         "photos/item-56-a.jpg"
       ]
+    },
+    {
+      "id": "M-39",
+      "category": "mechanical",
+      "location": "Onsite hardware",
+      "description": "Organize hardware onsite as time permits.",
+      "images": [
+        "photos/item-57-a.jpg",
+        "photos/item-57-b.jpg"
+      ]
     }
   ]
 }
