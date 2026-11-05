@@ -134,7 +134,8 @@
       "description": "LB electrical cover is missing (circled in photo).",
       "images": [
         "photos/item-13-a.jpg"
-      ]
+      ],
+      "done": true
     },
     {
       "id": "E-8",
@@ -190,7 +191,9 @@
       "description": "Chilled water leak.",
       "images": [
         "photos/item-19-a.jpg"
-      ]
+      ],
+      "status": "waiting-material",
+      "note": "Waiting on materials: coil mount kits and plumbing fittings."
     },
     {
       "id": "M-11",
@@ -199,7 +202,9 @@
       "description": "Leak on chilled water connection.",
       "images": [
         "photos/item-20-a.jpg"
-      ]
+      ],
+      "status": "waiting-material",
+      "note": "Waiting on materials: coil mount kits and plumbing fittings."
     },
     {
       "id": "M-12",
@@ -208,7 +213,9 @@
       "description": "Chilled water leak.",
       "images": [
         "photos/item-21-a.jpg"
-      ]
+      ],
+      "status": "waiting-material",
+      "note": "Waiting on materials: coil mount kits and plumbing fittings."
     },
     {
       "id": "M-13",
@@ -217,7 +224,9 @@
       "description": "Chilled water leak.",
       "images": [
         "photos/item-22-a.jpg"
-      ]
+      ],
+      "status": "waiting-material",
+      "note": "Waiting on materials: coil mount kits and plumbing fittings."
     },
     {
       "id": "M-14",
@@ -226,7 +235,9 @@
       "description": "Chilled water leak.",
       "images": [
         "photos/item-23-a.jpg"
-      ]
+      ],
+      "status": "waiting-material",
+      "note": "Waiting on materials: coil mount kits and plumbing fittings."
     },
     {
       "id": "E-10",
@@ -253,7 +264,8 @@
       "description": "Blower piping needs to be reworked and installed per the provided design. The high pressure exhaust valves are installed inline and should have been exhausted at a tee connection below the grating. While the rework is done, an additional flanged take-off should be installed. See Jerry Mak for details and sketch.",
       "images": [
         "photos/item-26-a.jpg"
-      ]
+      ],
+      "status": "in-progress"
     },
     {
       "id": "M-17",
@@ -274,7 +286,8 @@
       "description": "Install flexible chilled glycol hoses on the chromate freeze out tanks when material arrives.",
       "images": [
         "photos/item-28-a.jpg"
-      ]
+      ],
+      "current_state": "Materials to build the hoses are onsite. Hoses can be made up."
     },
     {
       "id": "M-19",
@@ -304,7 +317,9 @@
       "description": "Install missing anode/cathode bars on the electro clean tanks. Materials are on order and in process but not onsite yet.",
       "images": [
         "photos/item-31-a.jpg"
-      ]
+      ],
+      "status": "in-progress",
+      "note": "Waiting on 6 pcs of 2.5 in spacers for the rear bars."
     },
     {
       "id": "E-12",
@@ -352,7 +367,8 @@
       "description": "Duct penetration to the trunk for tank 308 is installed backwards (see red arrows in photo).",
       "images": [
         "photos/item-35-a.jpg"
-      ]
+      ],
+      "status": "in-progress"
     },
     {
       "id": "M-23",
@@ -467,7 +483,9 @@
       "description": "Install a unistrut track and trolley mounting system on the chromate freeze out tanks as shown in the example image (AI generated). The image shows the unistrut notched, but that is incorrect. The strut will only be cut to length.",
       "images": [
         "photos/item-47-a.jpg"
-      ]
+      ],
+      "status": "waiting-material",
+      "note": "Waiting on unistrut trolleys."
     },
     {
       "id": "M-33",
@@ -476,7 +494,9 @@
       "description": "Re-mount all chilled water coils. Unistrut mount kits were ordered on Oct 28. When they arrive, the unistrut needs to be cut into 32\" lengths. The pieces were ordered as 8 ft (96\") sticks and each stick must yield 3 pieces. No extras were ordered. See Jerry Mak for additional details when material arrives.",
       "images": [
         "photos/item-48-a.jpg"
-      ]
+      ],
+      "status": "waiting-material",
+      "note": "Waiting on mounting kits."
     },
     {
       "id": "M-34",
