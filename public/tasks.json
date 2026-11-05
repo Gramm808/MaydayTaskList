@@ -497,6 +497,16 @@
       "images": [
         "photos/item-52-a.jpg"
       ]
+    },
+    {
+      "id": "M-36",
+      "category": "mechanical",
+      "location": "Air diaphragm pump",
+      "description": "Replace the defective air valve on the air diaphragm pump. The new valve and the old valve are on the table.",
+      "images": [
+        "photos/item-53-a.jpg",
+        "photos/item-53-b.jpg"
+      ]
     }
   ]
 }
