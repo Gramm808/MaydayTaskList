@@ -1,7 +1,7 @@
 {
   "title": "Mayday Task List",
   "subtitle": "Items to fix or complete",
-  "updated": "2026-10-28",
+  "updated": "2026-11-05",
   "tasks": [
     {
       "id": "E-1",
@@ -477,6 +477,16 @@
       "description": "Move the back left electrode bar mount 7 inches toward the center of the tank.",
       "images": [
         "photos/item-50-a.jpg"
+      ]
+    },
+    {
+      "id": "M-35",
+      "category": "mechanical",
+      "location": "Electrode bar and motor",
+      "description": "Move the motor toward the back of the tank far enough to give 1 inch of clearance between the electrode bar and the motor when the electrode bar rests in both mounts.",
+      "images": [
+        "photos/item-51-a.jpg",
+        "photos/item-51-b.jpg"
       ]
     }
   ]
