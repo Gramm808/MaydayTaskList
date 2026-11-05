@@ -15,6 +15,19 @@
     });
   }
 
+  var STATUS = {
+    'waiting-material': 'Waiting on material',
+    'in-progress': 'In progress',
+    'not-started': 'Not started',
+    'question': 'Question to answer'
+  };
+  function field(label, text) {
+    var d = el('div', 'field');
+    d.appendChild(el('span', 'flabel', label + ': '));
+    d.appendChild(document.createTextNode(text));
+    return d;
+  }
+
   function makeCard(t, isDone) {
     var card = el('article', 'card' + (isDone ? ' done' : ''));
     var top = el('div', 'top');
@@ -22,6 +35,13 @@
     var body = el('div');
     body.appendChild(el('div', 'loc', t.location || ''));
     body.appendChild(el('div', 'desc', t.description || ''));
+    var chips = el('div', 'chips');
+    if (t.status && STATUS[t.status]) chips.appendChild(el('span', 'chip status-' + t.status, STATUS[t.status]));
+    if (!isDone && t.assigned) chips.appendChild(el('span', 'chip assigned', 'Assigned: ' + t.assigned));
+    if (chips.childNodes.length) body.appendChild(chips);
+    if (t.note) body.appendChild(field('Note', t.note));
+    if (t.current_state) body.appendChild(field('Current state', t.current_state));
+    if (isDone && t.completed_by) body.appendChild(field('Completed by', t.completed_by));
     top.appendChild(body);
     card.appendChild(top);
 

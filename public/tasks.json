@@ -291,8 +291,11 @@
       "location": "All tanks",
       "description": "Make cable connections to the anode and cathode bars on each tank.",
       "images": [
-        "photos/item-30-a.jpg"
-      ]
+        "photos/item-30-a.jpg",
+        "photos/item-54-a.jpg"
+      ],
+      "status": "in-progress",
+      "current_state": "All lugs are installed on cables at tanks. A few modifications are needed to complete the job, including installation of copper extensions, moving some motors, and installing spacers on the electro clean tanks. Additional individual items will be created for each remaining item."
     },
     {
       "id": "M-20",
@@ -310,7 +313,10 @@
       "description": "Install missing clips or covers on the hoist power rail connection points.",
       "images": [
         "photos/item-32-a.jpg"
-      ]
+      ],
+      "status": "waiting-material",
+      "note": "Waiting on 10 pcs to be delivered.",
+      "current_state": "Almost done."
     },
     {
       "id": "E-13",
@@ -326,7 +332,8 @@
       "category": "electrical",
       "location": "Rectifiers and control boxes",
       "description": "Install rectifier control cabling between the rectifiers and the control boxes.",
-      "images": []
+      "images": [],
+      "done": true
     },
     {
       "id": "M-21",
@@ -382,7 +389,8 @@
       "images": [
         "photos/item-39-a.jpg",
         "photos/item-39-b.jpg"
-      ]
+      ],
+      "done": true
     },
     {
       "id": "M-25",
@@ -496,7 +504,8 @@
       "description": "Install plastic edge guarding on the rectifier stand between the rectifiers that are bridged with copper bussing.",
       "images": [
         "photos/item-52-a.jpg"
-      ]
+      ],
+      "current_state": "Materials are now onsite. This can be completed."
     },
     {
       "id": "M-36",

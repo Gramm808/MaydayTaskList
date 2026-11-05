@@ -101,3 +101,14 @@ details.done-group > summary .count { color: var(--muted); font-weight: 500; }
 .std .supp h2 { margin-top: 0; }
 .std .supp p { margin: 8px 0; }
 .std .supp .small { color: var(--muted); font-size: .92rem; }
+
+/* status, assignment and detail fields */
+.chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+.chip { font-size: 12px; font-weight: 650; padding: 2px 8px; border-radius: 999px; border: 1px solid var(--line); color: var(--muted); }
+.chip.assigned { color: var(--text); }
+.chip.status-waiting-material { color: #9a5b00; border-color: #e0b060; }
+.chip.status-in-progress { color: var(--elec); border-color: var(--elec); }
+.chip.status-question { color: var(--mech); border-color: var(--mech); }
+.field { margin-top: 6px; white-space: pre-wrap; overflow-wrap: anywhere; }
+.flabel { font-weight: 650; }
+@media (prefers-color-scheme: dark) { .chip.status-waiting-material { color: #f0c274; border-color: #a9803c; } }
