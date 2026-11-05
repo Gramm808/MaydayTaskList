@@ -482,11 +482,20 @@
     {
       "id": "M-35",
       "category": "mechanical",
-      "location": "Electrode bar and motor",
-      "description": "Move the motor toward the back of the tank far enough to give 1 inch of clearance between the electrode bar and the motor when the electrode bar rests in both mounts.",
+      "location": "Tank 103, electrode bar and motor",
+      "description": "Tank 103: move the motor toward the back of the tank far enough to give 1 inch of clearance between the electrode bar and the motor when the electrode bar rests in both mounts.",
       "images": [
         "photos/item-51-a.jpg",
         "photos/item-51-b.jpg"
+      ]
+    },
+    {
+      "id": "E-17",
+      "category": "electrical",
+      "location": "Rectifier stand",
+      "description": "Install plastic edge guarding on the rectifier stand between the rectifiers that are bridged with copper bussing.",
+      "images": [
+        "photos/item-52-a.jpg"
       ]
     }
   ]
