@@ -323,8 +323,9 @@
       "images": [
         "photos/item-31-a.jpg"
       ],
-      "status": "in-progress",
-      "note": "Waiting on 6 pcs of 2.5 in spacers for the rear bars."
+      "note": "Superseded by M-28.",
+      "done": true,
+      "current_state": "90% complete. Was waiting on 6 spacers and longer bolts."
     },
     {
       "id": "E-12",
@@ -479,7 +480,8 @@
       "images": [
         "photos/item-49-a.jpg",
         "photos/item-49-b.jpg"
-      ]
+      ],
+      "done": true
     },
     {
       "id": "M-32",
@@ -540,7 +542,8 @@
       "images": [
         "photos/item-53-a.jpg",
         "photos/item-53-b.jpg"
-      ]
+      ],
+      "done": true
     },
     {
       "id": "M-37",
@@ -572,6 +575,15 @@
       "images": [
         "photos/item-57-a.jpg",
         "photos/item-57-b.jpg"
+      ]
+    },
+    {
+      "id": "M-40",
+      "category": "mechanical",
+      "location": "Chromate valve tree",
+      "description": "Connect each of the 5 tank valves on the chromate valve tree to the proper tanks.",
+      "images": [
+        "photos/item-58-a.jpg"
       ]
     }
   ]
