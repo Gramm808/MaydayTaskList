@@ -164,7 +164,8 @@
       "description": "Leak at union. Rework entire fitting, loose joints.",
       "images": [
         "photos/item-16-a.jpg"
-      ]
+      ],
+      "done": true
     },
     {
       "id": "M-8",
@@ -173,7 +174,8 @@
       "description": "Leak at a bad nipple.",
       "images": [
         "photos/item-17-a.jpg"
-      ]
+      ],
+      "done": true
     },
     {
       "id": "M-9",
@@ -182,7 +184,8 @@
       "description": "Leak.",
       "images": [
         "photos/item-18-a.jpg"
-      ]
+      ],
+      "done": true
     },
     {
       "id": "M-10",
@@ -255,7 +258,8 @@
       "description": "Valve tree is not per design and will not work. The entire assembly needs to be removed and rebuilt per the proper design. See Jerry Mak for details.",
       "images": [
         "photos/item-25-a.jpg"
-      ]
+      ],
+      "done": true
     },
     {
       "id": "M-16",
@@ -277,7 +281,8 @@
         "photos/item-27-b.jpg",
         "photos/item-27-c.jpg",
         "photos/item-27-d.jpg"
-      ]
+      ],
+      "done": true
     },
     {
       "id": "M-18",
@@ -546,6 +551,17 @@
         "photos/item-55-a.jpg",
         "photos/item-55-b.jpg",
         "photos/item-55-c.jpg"
+      ]
+    },
+    {
+      "id": "M-38",
+      "category": "mechanical",
+      "location": "Tank 107",
+      "description": "Install fume hood duct on tank 107.",
+      "status": "waiting-material",
+      "note": "Waiting on parts: 45\u00b0 elbows or couplings.",
+      "images": [
+        "photos/item-56-a.jpg"
       ]
     }
   ]
