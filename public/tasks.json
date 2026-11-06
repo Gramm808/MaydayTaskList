@@ -1,7 +1,7 @@
 {
   "title": "Mayday Task List",
   "subtitle": "Items to fix or complete",
-  "updated": "2026-11-05",
+  "updated": "2026-11-06",
   "tasks": [
     {
       "id": "E-1",
@@ -53,7 +53,8 @@
       "description": "Steam trap and condensate line are much too close to both the conduit and the Alkaline Acid waste line.",
       "images": [
         "photos/item-05-b.jpg"
-      ]
+      ],
+      "materials": "None required."
     },
     {
       "id": "E-2",
@@ -196,7 +197,7 @@
         "photos/item-19-a.jpg"
       ],
       "status": "waiting-material",
-      "note": "Waiting on materials: coil mount kits and plumbing fittings."
+      "note": "Waiting on metal pipe fittings and shallow unistrut. Unistrut clamps and brackets are onsite."
     },
     {
       "id": "M-11",
@@ -207,7 +208,7 @@
         "photos/item-20-a.jpg"
       ],
       "status": "waiting-material",
-      "note": "Waiting on materials: coil mount kits and plumbing fittings."
+      "note": "Waiting on metal pipe fittings and shallow unistrut. Unistrut clamps and brackets are onsite."
     },
     {
       "id": "M-12",
@@ -218,7 +219,7 @@
         "photos/item-21-a.jpg"
       ],
       "status": "waiting-material",
-      "note": "Waiting on materials: coil mount kits and plumbing fittings."
+      "note": "Waiting on metal pipe fittings and shallow unistrut. Unistrut clamps and brackets are onsite."
     },
     {
       "id": "M-13",
@@ -229,7 +230,7 @@
         "photos/item-22-a.jpg"
       ],
       "status": "waiting-material",
-      "note": "Waiting on materials: coil mount kits and plumbing fittings."
+      "note": "Waiting on metal pipe fittings and shallow unistrut. Unistrut clamps and brackets are onsite."
     },
     {
       "id": "M-14",
@@ -240,7 +241,7 @@
         "photos/item-23-a.jpg"
       ],
       "status": "waiting-material",
-      "note": "Waiting on materials: coil mount kits and plumbing fittings."
+      "note": "Waiting on metal pipe fittings and shallow unistrut. Unistrut clamps and brackets are onsite."
     },
     {
       "id": "E-10",
@@ -269,7 +270,9 @@
       "images": [
         "photos/item-26-a.jpg"
       ],
-      "status": "in-progress"
+      "status": "in-progress",
+      "materials": "Onsite.",
+      "current_state": "In process. Work is stopped until the contractor returns to finish."
     },
     {
       "id": "M-17",
@@ -292,7 +295,8 @@
       "images": [
         "photos/item-28-a.jpg"
       ],
-      "current_state": "Materials to build the hoses are onsite. Hoses can be made up."
+      "current_state": "Hoses are here. Laborers are assembling them today.",
+      "status": "in-progress"
     },
     {
       "id": "M-19",
@@ -301,7 +305,9 @@
       "description": "After the leaks below the grating are fixed (M-7, M-8 and M-9), reinstall the vertical stainless pipe to an elevation approximately equal to the rim of the freeze out tank.",
       "images": [
         "photos/item-29-a.jpg"
-      ]
+      ],
+      "status": "not-started",
+      "note": "Starts after M-18 is complete."
     },
     {
       "id": "E-11",
@@ -364,7 +370,9 @@
       "images": [
         "photos/item-34-a.jpg",
         "photos/item-34-b.jpg"
-      ]
+      ],
+      "status": "not-started",
+      "note": "Can be done at any point once labor is available. Work on the ducts experiencing issues first."
     },
     {
       "id": "M-22",
@@ -374,7 +382,8 @@
       "images": [
         "photos/item-35-a.jpg"
       ],
-      "status": "in-progress"
+      "status": "in-progress",
+      "current_state": "Started. Team is at a stopping point until the contractor is back onsite."
     },
     {
       "id": "M-23",
@@ -383,7 +392,8 @@
       "description": "Install fume hood ducting on tanks 306 and 307.",
       "images": [
         "photos/item-36-a.jpg"
-      ]
+      ],
+      "note": "Depends on M-22 being completed."
     },
     {
       "id": "M-24",
@@ -421,7 +431,9 @@
       "description": "Chilled water line and steam line are on top of each other and will prevent installing steam insulation. Materials: 1 in PVC, (4) 45s, (1) coupling, (3) 90s.",
       "images": [
         "photos/item-40-a.jpg"
-      ]
+      ],
+      "status": "not-started",
+      "materials": "Appear to be onsite."
     },
     {
       "id": "M-26",
@@ -434,17 +446,6 @@
       ]
     },
     {
-      "id": "M-27",
-      "category": "mechanical",
-      "location": "All tanks (most tanks need this done)",
-      "description": "Adjust the position of all tank valves to make them easier to reach. This should not require any pipework. Loosen the valve union, rotate the valve 90 degrees, then re-tighten.",
-      "images": [
-        "photos/item-42-a.jpg",
-        "photos/item-42-b.jpg",
-        "photos/item-42-c.jpg"
-      ]
-    },
-    {
       "id": "M-28",
       "category": "mechanical",
       "location": "Electro clean tanks 103, 303 and 503",
@@ -452,7 +453,10 @@
       "images": [
         "photos/item-43-a.jpg",
         "photos/item-43-b.jpg"
-      ]
+      ],
+      "status": "in-progress",
+      "current_state": "90% complete.",
+      "note": "Waiting on 2-1/2 in spacers to arrive. Spacers still need to be installed."
     },
     {
       "id": "M-29",
@@ -461,7 +465,8 @@
       "description": "Review each tank and move components that are in the way of electrodes or other non-negotiable position items. Potential items to move include pumps, RTDs, etc.",
       "images": [
         "photos/item-44-a.jpg"
-      ]
+      ],
+      "note": "Can proceed at any time."
     },
     {
       "id": "M-30",
@@ -470,7 +475,8 @@
       "description": "RTDs should not be mounted directly next to the heat exchange coils. Tank 211 is shown as an example, but other tanks have the same problem.",
       "images": [
         "photos/item-45-a.jpg"
-      ]
+      ],
+      "note": "Relatively low priority."
     },
     {
       "id": "M-31",
@@ -487,7 +493,7 @@
       "id": "M-32",
       "category": "mechanical",
       "location": "Chromate freeze out tanks",
-      "description": "Install a unistrut track and trolley mounting system on the chromate freeze out tanks as shown in the example image (AI generated). The image shows the unistrut notched, but that is incorrect. The strut will only be cut to length. Unistrut is onsite and needs to be cut to size: 4 pcs total, each cut to 41\" long.",
+      "description": "Install a unistrut track and trolley mounting system on the chromate freeze out tanks as shown in the example image (AI generated). The image shows the unistrut notched, but that is incorrect. The strut will only be cut to length. Laborers to retrieve 4 pieces of unused unistrut from the basement and cut each to 41\" long.",
       "images": [
         "photos/item-47-a.jpg"
       ],
@@ -503,7 +509,7 @@
         "photos/item-48-a.jpg"
       ],
       "status": "waiting-material",
-      "note": "Waiting on mounting kits."
+      "note": "Waiting on a few components for the mounting kits to arrive."
     },
     {
       "id": "M-34",
@@ -512,7 +518,8 @@
       "description": "Move the back left electrode bar mount 7 inches toward the center of the tank.",
       "images": [
         "photos/item-50-a.jpg"
-      ]
+      ],
+      "note": "May not be necessary. To be revisited later."
     },
     {
       "id": "M-35",
@@ -522,7 +529,9 @@
       "images": [
         "photos/item-51-a.jpg",
         "photos/item-51-b.jpg"
-      ]
+      ],
+      "materials": "None required.",
+      "note": "Can be worked on any time."
     },
     {
       "id": "E-17",
@@ -554,7 +563,8 @@
         "photos/item-55-a.jpg",
         "photos/item-55-b.jpg",
         "photos/item-55-c.jpg"
-      ]
+      ],
+      "note": "Filler work for laborers between assignments. Can be done anytime."
     },
     {
       "id": "M-38",
@@ -562,7 +572,7 @@
       "location": "Tank 107",
       "description": "Install fume hood duct on tank 107.",
       "status": "waiting-material",
-      "note": "Waiting on parts: 45\u00b0 elbows or couplings.",
+      "note": "Waiting on duct fittings (45\u00b0 elbows or couplings).",
       "images": [
         "photos/item-56-a.jpg"
       ]

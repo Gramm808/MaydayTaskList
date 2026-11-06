@@ -39,6 +39,7 @@
     if (t.status && STATUS[t.status]) chips.appendChild(el('span', 'chip status-' + t.status, STATUS[t.status]));
     if (!isDone && t.assigned) chips.appendChild(el('span', 'chip assigned', 'Assigned: ' + t.assigned));
     if (chips.childNodes.length) body.appendChild(chips);
+    if (t.materials) body.appendChild(field('Materials', t.materials));
     if (t.note) body.appendChild(field('Note', t.note));
     if (t.current_state) body.appendChild(field('Current state', t.current_state));
     if (isDone && t.completed_by) body.appendChild(field('Completed by', t.completed_by));
