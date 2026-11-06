@@ -16,8 +16,20 @@
     <a class="btn electrical" href="/electrical.html"><span class="label">Electrical Punch List</span><span class="meta" data-open-count="electrical"></span></a>
     <a class="btn mechanical" href="/mechanical.html"><span class="label">Mechanical Punch List</span><span class="meta" data-open-count="mechanical"></span></a>
     <a class="btn standards" href="/standards.html"><span class="label">Work Standards</span></a>
+    <a class="btn private" id="private-open" href="/private.html"><span class="label">Private</span></a>
   </nav>
+  <div id="pin-box" class="pinbox" hidden>
+    <form id="pin-form" autocomplete="off">
+      <label for="pin-input">Enter PIN</label>
+      <div class="pinrow">
+        <input id="pin-input" type="password" inputmode="numeric" pattern="[0-9]*" autocomplete="off" maxlength="12">
+        <button type="submit">Open</button>
+      </div>
+      <div class="pinmsg" role="alert"></div>
+    </form>
+  </div>
 </main>
 <script src="/app.js"></script>
+<script src="/pin.js"></script>
 </body>
 </html>

@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Private</title>
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<header>
+  <h1>Private</h1>
+  <div class="sub">Links open in claude.ai and need your sign-in</div>
+</header>
+<main>
+  <div id="pin-box" class="pinbox">
+    <form id="pin-form" autocomplete="off">
+      <label for="pin-input">Enter PIN</label>
+      <div class="pinrow">
+        <input id="pin-input" type="password" inputmode="numeric" pattern="[0-9]*" autocomplete="off" maxlength="12">
+        <button type="submit">Open</button>
+      </div>
+      <div class="pinmsg" role="alert"></div>
+    </form>
+  </div>
+  <nav class="menu" id="links" aria-label="Private links" hidden>
+    <a class="btn standards" id="l-materials" href="#"><span class="label">Materials List</span></a>
+    <a class="btn standards" id="l-mylist" href="#"><span class="label">My Tasks and Shopping</span></a>
+  </nav>
+  <p class="note"><a href="/">Back to home</a></p>
+</main>
+<script src="/pin.js"></script>
+<script>
+(function () {
+  function show(links) {
+    document.getElementById('l-materials').href = links.materials;
+    document.getElementById('l-mylist').href = links.mylist;
+    document.getElementById('pin-box').hidden = true;
+    document.getElementById('links').hidden = false;
+  }
+  MaydayPin.bindForm(document.getElementById('pin-form'), show);
+  var pin = MaydayPin.stored();
+  if (pin) MaydayPin.unlock(pin).then(function (links) { if (links) show(links); });
+})();
+</script>
+</body>
+</html>
