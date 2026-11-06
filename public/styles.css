@@ -130,3 +130,4 @@ details.more[open] > summary::before { content: '\2212  '; }
 .pinmsg { color: #c0392b; margin-top: 8px; min-height: 1.2em; }
 .btn.private { border-style: dashed; }
 a.btn.private { --cat: var(--muted); }
+[hidden] { display: none !important; }
