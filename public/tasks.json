@@ -576,7 +576,7 @@
       "location": "Tank 107",
       "description": "Install fume hood duct on tank 107.",
       "status": "waiting-material",
-      "note": "Waiting on duct fittings (45\u00b0 elbows or couplings).",
+      "note": "Waiting on duct fittings (45° elbows or couplings).",
       "images": [
         "photos/item-56-a.jpg"
       ]
@@ -599,6 +599,17 @@
       "images": [
         "photos/item-58-a.jpg"
       ]
+    },
+    {
+      "id": "M-41",
+      "category": "mechanical",
+      "location": "Barrel drain",
+      "description": "Install barrel drain.",
+      "images": [
+        "photos/item-59-a.jpg"
+      ],
+      "status": "waiting-material",
+      "note": "Waiting on strut channel beam mounts (McMaster part no. 1815T18, 2 pair)."
     }
   ]
 }
