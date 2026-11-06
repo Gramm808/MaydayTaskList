@@ -112,3 +112,11 @@ details.done-group > summary .count { color: var(--muted); font-weight: 500; }
 .field { margin-top: 6px; white-space: pre-wrap; overflow-wrap: anywhere; }
 .flabel { font-weight: 650; }
 @media (prefers-color-scheme: dark) { .chip.status-waiting-material { color: #f0c274; border-color: #a9803c; } }
+
+.chip.status-ready { color: var(--done); border-color: var(--done); }
+.chip.status-waiting-other { color: var(--muted); }
+details.more { margin-top: 10px; border-top: 1px solid var(--line); padding-top: 8px; }
+details.more > summary { cursor: pointer; font-weight: 650; color: var(--muted); list-style: none; }
+details.more > summary::-webkit-details-marker { display: none; }
+details.more > summary::before { content: '+ '; }
+details.more[open] > summary::before { content: '\2212  '; }

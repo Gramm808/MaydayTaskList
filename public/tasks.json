@@ -306,7 +306,7 @@
       "images": [
         "photos/item-29-a.jpg"
       ],
-      "status": "not-started",
+      "status": "waiting-other",
       "note": "Starts after M-18 is complete."
     },
     {
@@ -371,7 +371,7 @@
         "photos/item-34-a.jpg",
         "photos/item-34-b.jpg"
       ],
-      "status": "not-started",
+      "status": "ready",
       "note": "Can be done at any point once labor is available. Work on the ducts experiencing issues first."
     },
     {
@@ -393,7 +393,8 @@
       "images": [
         "photos/item-36-a.jpg"
       ],
-      "note": "Depends on M-22 being completed."
+      "note": "Depends on M-22 being completed.",
+      "status": "waiting-other"
     },
     {
       "id": "M-24",
@@ -432,7 +433,7 @@
       "images": [
         "photos/item-40-a.jpg"
       ],
-      "status": "not-started",
+      "status": "ready",
       "materials": "Appear to be onsite."
     },
     {
@@ -466,7 +467,8 @@
       "images": [
         "photos/item-44-a.jpg"
       ],
-      "note": "Can proceed at any time."
+      "note": "Can proceed at any time.",
+      "status": "ready"
     },
     {
       "id": "M-30",
@@ -531,7 +533,8 @@
         "photos/item-51-b.jpg"
       ],
       "materials": "None required.",
-      "note": "Can be worked on any time."
+      "note": "Can be worked on any time.",
+      "status": "ready"
     },
     {
       "id": "E-17",
@@ -564,7 +567,8 @@
         "photos/item-55-b.jpg",
         "photos/item-55-c.jpg"
       ],
-      "note": "Filler work for laborers between assignments. Can be done anytime."
+      "note": "Filler work for laborers between assignments. Can be done anytime.",
+      "status": "ready"
     },
     {
       "id": "M-38",

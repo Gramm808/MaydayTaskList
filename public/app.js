@@ -17,7 +17,9 @@
 
   var STATUS = {
     'waiting-material': 'Waiting on material',
+    'ready': 'Ready to work',
     'in-progress': 'In progress',
+    'waiting-other': 'Waiting on another task or crew',
     'not-started': 'Not started',
     'question': 'Question to answer'
   };
@@ -37,14 +39,21 @@
     body.appendChild(el('div', 'desc', t.description || ''));
     var chips = el('div', 'chips');
     if (t.status && STATUS[t.status]) chips.appendChild(el('span', 'chip status-' + t.status, STATUS[t.status]));
-    if (!isDone && t.assigned) chips.appendChild(el('span', 'chip assigned', 'Assigned: ' + t.assigned));
     if (chips.childNodes.length) body.appendChild(chips);
-    if (t.materials) body.appendChild(field('Materials', t.materials));
-    if (t.note) body.appendChild(field('Note', t.note));
-    if (t.current_state) body.appendChild(field('Current state', t.current_state));
-    if (isDone && t.completed_by) body.appendChild(field('Completed by', t.completed_by));
     top.appendChild(body);
     card.appendChild(top);
+
+    var more = el('details', 'more');
+    var rows = [];
+    if (t.current_state) rows.push(['Current state', t.current_state]);
+    if (t.materials) rows.push(['Materials', t.materials]);
+    if (t.note) rows.push(['Note', t.note]);
+    if (!isDone && t.assigned) rows.push(['Assigned to', t.assigned]);
+    if (isDone && t.completed_by) rows.push(['Completed by', t.completed_by]);
+    if (rows.length) {
+      more.appendChild(el('summary', null, 'Details'));
+      rows.forEach(function (r) { more.appendChild(field(r[0], r[1])); });
+    }
 
     var imgs = t.images || [];
     if (imgs.length) {
@@ -57,6 +66,7 @@
       });
       card.appendChild(grid);
     }
+    if (rows.length) card.appendChild(more);
     return card;
   }
 
