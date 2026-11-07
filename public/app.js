@@ -31,7 +31,7 @@
   }
 
   function makeCard(t, isDone) {
-    var card = el('article', 'card' + (isDone ? ' done' : ''));
+    var card = el('article', 'card' + (isDone ? ' done' : '') + (t.category ? ' cat-' + t.category : ''));
     var top = el('div', 'top');
     top.appendChild(el('div', 'num', isDone ? t.id + ' ✓' : t.id));
     var body = el('div');
@@ -104,14 +104,29 @@
     });
   }
 
+  function renderPriorities(data) {
+    var box = document.getElementById('priorities');
+    var list = document.getElementById('priority-list');
+    if (!box || !list) return;
+    var byId = {};
+    (data.tasks || []).forEach(function (t) { byId[t.id] = t; });
+    var items = (data.priorities || []).map(function (id) { return byId[id]; })
+      .filter(function (t) { return t && !t.done; });
+    list.textContent = '';
+    items.forEach(function (t) { list.appendChild(makeCard(t, false)); });
+    box.hidden = items.length === 0;
+  }
+
   var body = document.body;
   var category = body.getAttribute('data-punchlist');
   var wantsCounts = document.querySelector('[data-open-count]');
-  if (!category && !wantsCounts) return;
+  var wantsPriorities = document.getElementById('priorities');
+  if (!category && !wantsCounts && !wantsPriorities) return;
 
   loadData().then(function (data) {
     if (category) renderPunchList(data, category);
     if (wantsCounts) renderCounts(data);
+    if (wantsPriorities) renderPriorities(data);
   }).catch(function () {
     if (category) {
       var list = document.getElementById('list');

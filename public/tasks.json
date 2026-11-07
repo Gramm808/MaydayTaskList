@@ -1,7 +1,7 @@
 {
   "title": "Mayday Task List",
   "subtitle": "Items to fix or complete",
-  "updated": "2026-11-06",
+  "updated": "2026-11-07",
   "tasks": [
     {
       "id": "E-1",
@@ -50,7 +50,7 @@
       "id": "M-4",
       "category": "mechanical",
       "location": "Under tank 101",
-      "description": "Steam trap and condensate line are much too close to both the conduit and the Alkaline Acid waste line.",
+      "description": "Many places have steel pipe carrying steam or condensate in contact with plastic piping. There must be at least 1\" of clearance between all steam and condensate pipe and all plastic piping, including conduit and water lines. The Mayday team will turn on the steam on Monday, so all of these issues must be addressed before then. Some may need temporary fixes, such as loosening pipe clamps and sliding the pipes away from each other, or folding up cardboard and sticking it between the metal and plastic. Any other option that keeps the steam piping from damaging the plastic pipe is fine. Anywhere metal pipe and plastic pipe are within approx. 2\" needs a marker highlighting the spot so a more permanent fix can be made.",
       "images": [
         "photos/item-05-b.jpg"
       ],
@@ -291,7 +291,7 @@
       "id": "M-18",
       "category": "mechanical",
       "location": "Chromate freeze out tanks",
-      "description": "Install flexible chilled glycol hoses on the chromate freeze out tanks when material arrives.",
+      "description": "Assemble and connect all heat exchangers to the chilled glycol system with the flexible hoses.",
       "images": [
         "photos/item-28-a.jpg"
       ],
@@ -611,5 +611,9 @@
       "status": "waiting-material",
       "note": "Waiting on strut channel beam mounts (McMaster part no. 1815T18, 2 pair)."
     }
+  ],
+  "priorities": [
+    "M-18",
+    "M-4"
   ]
 }

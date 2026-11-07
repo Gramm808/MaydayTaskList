@@ -131,3 +131,9 @@ details.more[open] > summary::before { content: '\2212  '; }
 .btn.private { border-style: dashed; }
 a.btn.private { --cat: var(--muted); }
 [hidden] { display: none !important; }
+
+.card.cat-electrical { --cat: var(--elec); }
+.card.cat-mechanical { --cat: var(--mech); }
+.priorities { margin: 8px 0 20px; padding: 12px 12px 4px; border: 2px solid var(--text); border-radius: 14px; background: var(--card); }
+.priorities h2 { font-size: 1.15rem; margin: 0 0 10px; text-transform: uppercase; letter-spacing: .04em; }
+.priorities .card { margin-top: 0; margin-bottom: 12px; }
