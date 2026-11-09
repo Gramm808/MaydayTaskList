@@ -528,7 +528,8 @@
       "images": [
         "photos/item-50-a.jpg"
       ],
-      "note": "May not be necessary. To be revisited later."
+      "note": "May not be necessary. To be revisited later.",
+      "done": true
     },
     {
       "id": "M-35",
