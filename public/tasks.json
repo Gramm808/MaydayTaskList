@@ -296,10 +296,11 @@
       "location": "Chromate freeze out tanks",
       "description": "Assemble and connect all heat exchangers to the chilled glycol system with the flexible hoses.",
       "images": [
-        "photos/item-28-a.jpg"
+        "photos/item-28-a.jpg",
+        "photos/item-62-a.jpg"
       ],
-      "current_state": "Hoses are here. Laborers are assembling them today.",
-      "status": "in-progress"
+      "current_state": "All coils are connected with hoses and leak tested. Still waiting on trolleys to mount the coils in their permanent location.",
+      "done": true
     },
     {
       "id": "M-19",
