@@ -373,10 +373,13 @@
       "description": "Install duct support cradles between the duct and the unistrut to prevent duct deformation. Some ducts are already getting flat spots.",
       "images": [
         "photos/item-34-a.jpg",
-        "photos/item-34-b.jpg"
+        "photos/item-34-b.jpg",
+        "photos/item-63-a.jpg",
+        "photos/item-63-b.jpg"
       ],
-      "status": "ready",
-      "note": "Can be done at any point once labor is available. Work on the ducts experiencing issues first."
+      "status": "in-progress",
+      "note": "Can be done at any point once labor is available. Work on the ducts experiencing issues first.",
+      "current_state": "2 PVC duct supports installed."
     },
     {
       "id": "M-22",
