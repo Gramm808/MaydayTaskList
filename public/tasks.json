@@ -270,11 +270,12 @@
       "location": "Air agitation blowers",
       "description": "Blower piping needs to be reworked and installed per the provided design. The high pressure exhaust valves are installed inline and should have been exhausted at a tee connection below the grating. While the rework is done, an additional flanged take-off should be installed. See Jerry Mak for details and sketch.",
       "images": [
-        "photos/item-26-a.jpg"
+        "photos/item-26-a.jpg",
+        "photos/item-61-a.jpg"
       ],
       "status": "in-progress",
       "materials": "Onsite.",
-      "current_state": "In process. Work is stopped until the contractor returns to finish."
+      "current_state": "The contractor spent several hours on this. Most of the work above the grating is complete. Work below the grating is in progress."
     },
     {
       "id": "M-17",
