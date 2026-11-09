@@ -462,9 +462,9 @@
         "photos/item-43-a.jpg",
         "photos/item-43-b.jpg"
       ],
-      "status": "in-progress",
       "current_state": "90% complete.",
-      "note": "Waiting on 2-1/2 in spacers to arrive. Spacers still need to be installed."
+      "note": "Waiting on 2-1/2 in spacers to arrive. Spacers still need to be installed.",
+      "done": true
     },
     {
       "id": "M-29",
