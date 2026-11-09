@@ -1,7 +1,7 @@
 {
   "title": "Mayday Task List",
   "subtitle": "Items to fix or complete",
-  "updated": "2026-11-07",
+  "updated": "2026-11-09",
   "tasks": [
     {
       "id": "E-1",
@@ -50,11 +50,13 @@
       "id": "M-4",
       "category": "mechanical",
       "location": "Under tank 101",
-      "description": "Many places have steel pipe carrying steam or condensate in contact with plastic piping. There must be at least 1\" of clearance between all steam and condensate pipe and all plastic piping, including conduit and water lines. The Mayday team will turn on the steam on Monday, so all of these issues must be addressed before then. Some may need temporary fixes, such as loosening pipe clamps and sliding the pipes away from each other, or folding up cardboard and sticking it between the metal and plastic. Any other option that keeps the steam piping from damaging the plastic pipe is fine. Anywhere metal pipe and plastic pipe are within approx. 2\" needs a marker highlighting the spot so a more permanent fix can be made.",
+      "description": "Steel steam and condensate pipe must have at least 1\" of clearance from all plastic piping, including conduit and water lines. Fix before steam is turned on. Temporary fixes: loosen pipe clamps and slide the pipes apart, or put folded cardboard between them. Mark anywhere metal and plastic pipe are within approx. 2\" so a permanent fix can be made.",
       "images": [
-        "photos/item-05-b.jpg"
+        "photos/item-05-b.jpg",
+        "photos/item-60-a.jpg"
       ],
-      "materials": "None required."
+      "materials": "None required.",
+      "current_state": "Over the weekend, over 18 tanks were worked on."
     },
     {
       "id": "E-2",
