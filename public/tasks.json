@@ -576,7 +576,7 @@
         "photos/item-55-c.jpg"
       ],
       "note": "Filler work for laborers between assignments. Can be done anytime.",
-      "status": "ready"
+      "done": true
     },
     {
       "id": "M-38",
