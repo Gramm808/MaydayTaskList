@@ -618,7 +618,15 @@
         "photos/item-59-a.jpg"
       ],
       "status": "waiting-material",
-      "note": "Waiting on strut channel beam mounts (McMaster part no. 1815T18, 2 pair)."
+      "note": "Waiting on strut channel beam mounts (McMaster part no. 1815T18, 2 pair).",
+      "current_state": "90% complete except for the missing unistrut mount, which was not shipped. One split ring hanger still needs to be installed between the pipe and the unistrut to replace the temporary red wire that is supporting the pipe."
+    },
+    {
+      "id": "M-42",
+      "category": "mechanical",
+      "location": "Steam piping",
+      "description": "Find and fix any loose steam piping connections. At least one 1-1/2\" pipe is so loose it can be rotated by hand.",
+      "images": []
     }
   ],
   "priorities": [
