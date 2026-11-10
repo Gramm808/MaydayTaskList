@@ -604,9 +604,9 @@
       "id": "M-40",
       "category": "mechanical",
       "location": "Chromate valve tree",
-      "description": "Connect each of the 5 tank valves on the chromate valve tree to the proper tanks.",
+      "description": "Connect each of the 5 tank valves on the chromate valve tree to the proper tanks. The installer must make sure the PVC is adequately spaced from any steam lines.",
       "images": [
-        "photos/item-58-a.jpg"
+        "photos/item-64-a.jpg"
       ]
     },
     {
