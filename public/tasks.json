@@ -341,13 +341,13 @@
       "id": "E-12",
       "category": "electrical",
       "location": "Hoist power rail connection points",
-      "description": "Install missing clips or covers on the hoist power rail connection points.",
+      "description": "Install missing clips or covers on the hoist power rail connection points. Covers are installed above the hoist rail at tanks 120, 122, 126 and 127.",
       "images": [
         "photos/item-32-a.jpg"
       ],
       "status": "waiting-material",
-      "note": "Waiting on 10 pcs to be delivered.",
-      "current_state": "Almost done."
+      "note": "10 covers are onsite. 6 are on order (requested from the office).",
+      "current_state": "Still need to install 16 covers."
     },
     {
       "id": "E-13",
