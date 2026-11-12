@@ -645,11 +645,16 @@
       "category": "mechanical",
       "location": "Steam system",
       "description": "Steam system leak test.\n\nRead [Steam Line System Safety](/steam-safety.html) before starting.\n\n1. The process\n\n1.1 Testing steam supply for an individual plating line\n    a. Open the main steam supply valve in the boiler room. (This valve should be closed any time you leave the building.)\n    b. Walk the line you will be testing and verify all steam valves are closed.\n    c. Open the valve that supplies steam to the line you are testing. Always open all steam valves slowly.\n    d. Walk the steam line looking for any smoke or steam leaks. If issues are found, turn the steam supply valve off and solve the issues. This tests the steam supply line for one of the plating lines only.\n    e. Once you can leave the steam supply open with no smoke or steam leaks, you are ready to continue. If you still have issues, continue making repairs until they are all fixed.\n    f. Open the end of supply line steam trap. This allows condensate to flow.\n    g. Make sure the condensate return pump can take away condensate.\n    h. At this point the steam supply line has been tested. Now test all the piping connections on each individual tank.\n\n1.2 Testing steam lines for individual tanks\n    a. Only the manual valves will be tested first.\n    b. Open the solenoid valve's bypass valve. This applies steam to the tank's heating coil. Check for leaks.\n    c. Open the valve on the outlet of the steam trap first, then open the valve on the inlet side of the steam trap. Steam should reach the trap, and as condensate forms it should start to flow through the trap.\n    d. Once you have heard the steam trap cycle and there are no leaks, test the piping to the automatic valve.\n    e. Open each of the manual isolation valves on each side of the automatic brass valve.\n    f. You are now testing the full steam system of this tank except the operation of the automatic valve. The automatic valve will be tested later.\n    g. Close the automatic valve's bypass valve, then close each of the other valves in the system, all the way down to the valve on the outlet side of the steam trap.\n    h. This tank's steam system has now been tested. Proceed to the next tank.\n\n2. Document all issues found. Fix any steam leaks found.\n\n3. Monitor the condensate return tank. Make sure it is powered on and pumping condensate back to the boiler. It has a sight glass so you can monitor the level. Verify all valves are open and you can feel a temperature change to confirm condensate is moving through the pipe.",
-      "images": []
+      "images": [],
+      "note": "This will likely be a lot of: turn steam on, note leaks, turn steam off, allow to cool down, fix leaks, repeat."
     }
   ],
   "priorities": [
-    "M-18",
-    "M-4"
+    "M-32",
+    "M-33",
+    "M-43",
+    "M-44",
+    "M-40",
+    "E-11"
   ]
 }
