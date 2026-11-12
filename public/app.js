@@ -30,13 +30,28 @@
     return d;
   }
 
+  // Description text; [label](/path) becomes a link (same-site paths or http(s) only).
+  function descNode(text) {
+    var d = el('div', 'desc');
+    var re = /\[([^\]]+)\]\(((?:\/|https?:\/\/)[^)\s]+)\)/g, last = 0, m;
+    while ((m = re.exec(text))) {
+      if (m.index > last) d.appendChild(document.createTextNode(text.slice(last, m.index)));
+      var link = el('a', 'desc-link', m[1]); link.href = m[2];
+      if (m[2].charAt(0) !== '/') { link.target = '_blank'; link.rel = 'noopener'; }
+      d.appendChild(link);
+      last = re.lastIndex;
+    }
+    if (last < text.length) d.appendChild(document.createTextNode(text.slice(last)));
+    return d;
+  }
+
   function makeCard(t, isDone) {
     var card = el('article', 'card' + (isDone ? ' done' : '') + (t.category ? ' cat-' + t.category : ''));
     var top = el('div', 'top');
     top.appendChild(el('div', 'num', isDone ? t.id + ' ✓' : t.id));
     var body = el('div');
     body.appendChild(el('div', 'loc', t.location || ''));
-    body.appendChild(el('div', 'desc', t.description || ''));
+    body.appendChild(descNode(t.description || ''));
     var chips = el('div', 'chips');
     if (t.status && STATUS[t.status]) chips.appendChild(el('span', 'chip status-' + t.status, STATUS[t.status]));
     if (chips.childNodes.length) body.appendChild(chips);

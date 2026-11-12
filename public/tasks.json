@@ -1,7 +1,7 @@
 {
   "title": "Mayday Task List",
   "subtitle": "Items to fix or complete",
-  "updated": "2026-11-10",
+  "updated": "2026-11-12",
   "tasks": [
     {
       "id": "E-1",
@@ -503,12 +503,12 @@
       "id": "M-32",
       "category": "mechanical",
       "location": "Chromate freeze out tanks",
-      "description": "Install a unistrut track and trolley mounting system on the chromate freeze out tanks as shown in the example image (AI generated). The image shows the unistrut notched, but that is incorrect. The strut will only be cut to length. Laborers to retrieve 4 pieces of unused unistrut from the basement and cut each to 41\" long.",
+      "description": "BILLABLE WORK. Contractors must track the number of man hours spent on this project.\n\nChromate freeze out tank coil mounting on unistrut rails.\n\nInstall a unistrut track and trolley mounting system on the chromate freeze out tanks as shown in the example image (AI generated). The image shows the unistrut notched, but that is incorrect. The strut will only be cut to length. Laborers to retrieve 4 pieces of unused unistrut from the basement and cut each to 41\" long.\n\n1. Existing hangers will be re-used.\n2. Existing hangers need to be repaired, made straight, and have trolleys installed on them.\n3. The trolley connection requires bending the washers provided to give the hanger strap a soft edge to hang against.\n4. The final nut installed should be a locking nylon nut.\n5. Trolleys must be slid into the unistrut at the end.\n6. Before attaching the unistrut to the top of the tank:\n    a. Make sure the black rubber end caps are in place.\n    b. Cut and install a 1-1/2\" x 1-1/2\" spacer to go between the tank and the unistrut (there is lots of scrap material available).\n7. Secure to the tank by drilling and tapping the rim of the tank (the proper size drill bit and tap are in the office). SEE NOTE ABOUT TAPPING HOLES IN TANKS: [Drilling and Tapping Holes in the Plastic Tanks](/tank-drilling-tapping.html)",
       "images": [
         "photos/item-47-a.jpg"
       ],
-      "status": "ready",
-      "current_state": "Materials are onsite. Work can start as soon as labor is available."
+      "status": "in-progress",
+      "current_state": "Parts are in. The team is working on installing them."
     },
     {
       "id": "M-33",
