@@ -317,7 +317,7 @@
       "id": "E-11",
       "category": "electrical",
       "location": "All tanks",
-      "description": "Make cable connections to the anode and cathode bars on each tank.",
+      "description": "Make cable connections to the anode and cathode bars on each tank.\n\nRectifier cables\n\n1. Cable management to the electrode bars.\n\n2. Make up all connections with the proper hardware.\n2.1 Most electrode bars take a 10mm 1.5 bolt.\n2.2 Exceptions:\n    a. The center bars in tanks 311, 223, 211, 129 and 117.\n    b. The electro clean tanks have 6 bars that have 3/8-16 threaded holes.\n2.3 To tell whether a hole is 3/8 or 10mm, try to insert a 10mm bolt. Does it fit and can it be turned in by hand?\n    Yes: the hole is 10mm.\n    No: the hole is 3/8.\n2.4 NOTE: A 3/8 bolt will fit into a 10mm hole but should not be installed that way. That is why the test is done with the 10mm bolt.\n\n3. Route the cables from the bars over the backs of the tanks. Insert spacers that will not melt (cardboard or wood) between the steam lines and the cables.\n\n4. Zip tie the cables together in bundles as you move from the electrode bars down into the aluminum cable tray in the basement.",
       "images": [
         "photos/item-30-a.jpg",
         "photos/item-54-a.jpg"
@@ -389,8 +389,8 @@
       "images": [
         "photos/item-35-a.jpg"
       ],
-      "status": "in-progress",
-      "current_state": "One hole has been patched. Measurements have been taken to prepare for rotating the ductwork."
+      "current_state": "One hole has been patched. Measurements have been taken to prepare for rotating the ductwork.",
+      "done": true
     },
     {
       "id": "M-23",
@@ -555,7 +555,8 @@
       "images": [
         "photos/item-52-a.jpg"
       ],
-      "current_state": "Materials are now onsite. This can be completed."
+      "current_state": "Materials are now onsite. This can be completed.",
+      "done": true
     },
     {
       "id": "M-36",
@@ -620,9 +621,9 @@
       "images": [
         "photos/item-59-a.jpg"
       ],
-      "status": "waiting-material",
       "note": "Waiting on strut channel beam mounts (McMaster part no. 1815T18, 2 pair).",
-      "current_state": "90% complete except for the missing unistrut mount, which was not shipped. One split ring hanger still needs to be installed between the pipe and the unistrut to replace the temporary red wire that is supporting the pipe."
+      "current_state": "90% complete except for the missing unistrut mount, which was not shipped. One split ring hanger still needs to be installed between the pipe and the unistrut to replace the temporary red wire that is supporting the pipe.",
+      "done": true
     },
     {
       "id": "M-42",
