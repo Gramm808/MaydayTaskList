@@ -30,6 +30,7 @@
     return d;
   }
 
+  var LONG_DESC = 350;
   // Description text; [label](/path) becomes a link (same-site paths or http(s) only), opens in a new tab.
   function descNode(text) {
     var d = el('div', 'desc');
@@ -42,11 +43,23 @@
       last = re.lastIndex;
     }
     if (last < text.length) d.appendChild(document.createTextNode(text.slice(last)));
-    return d;
+    if (text.length <= LONG_DESC) return d;
+    var wrap = el('div', 'desc-wrap');
+    d.className = 'desc clamped';
+    var btn = el('button', 'more-toggle', 'Show more'); btn.type = 'button';
+    btn.setAttribute('aria-expanded', 'false');
+    btn.addEventListener('click', function () {
+      var open = d.classList.toggle('clamped') === false;
+      btn.textContent = open ? 'Show less' : 'Show more';
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+    wrap.appendChild(d); wrap.appendChild(btn);
+    return wrap;
   }
 
   function makeCard(t, isDone) {
     var card = el('article', 'card' + (isDone ? ' done' : '') + (t.category ? ' cat-' + t.category : ''));
+    if (t.id) card.id = t.id;
     var top = el('div', 'top');
     top.appendChild(el('div', 'num', isDone ? t.id + ' ✓' : t.id));
     var body = el('div');
@@ -119,6 +132,14 @@
     });
   }
 
+  function shortText(t, n) {
+    var first = String(t.description || '').split('\n')[0].trim();
+    if (first.length <= n) return first;
+    var cut = first.slice(0, n), sp = cut.lastIndexOf(' ');
+    if (sp > n * 0.6) cut = cut.slice(0, sp);
+    return cut.replace(/[\s.,;:-]+$/, '') + '…';
+  }
+
   function renderPriorities(data) {
     var box = document.getElementById('priorities');
     var list = document.getElementById('priority-list');
@@ -128,8 +149,27 @@
     var items = (data.priorities || []).map(function (id) { return byId[id]; })
       .filter(function (t) { return t && !t.done; });
     list.textContent = '';
-    items.forEach(function (t) { list.appendChild(makeCard(t, false)); });
+    items.forEach(function (t) {
+      var page = t.category === 'electrical' ? '/electrical.html' : '/mechanical.html';
+      var a = el('a', 'pri-link cat-' + t.category);
+      a.href = page + '#' + encodeURIComponent(t.id); a.target = '_blank'; a.rel = 'noopener';
+      a.appendChild(el('span', 'num', t.id));
+      a.appendChild(el('span', 'pri-text', shortText(t, 28)));
+      list.appendChild(a);
+    });
     box.hidden = items.length === 0;
+  }
+
+  function goToHash() {
+    var id = decodeURIComponent((location.hash || '').slice(1));
+    if (!id) return;
+    var target = document.getElementById(id);
+    if (!target) return;
+    var grp = target.closest('details.done-group');
+    if (grp) grp.open = true;
+    target.scrollIntoView({ block: 'start' });
+    target.classList.add('flash');
+    setTimeout(function () { target.classList.remove('flash'); }, 2500);
   }
 
   var body = document.body;
@@ -139,7 +179,19 @@
   if (!category && !wantsCounts && !wantsPriorities) return;
 
   loadData().then(function (data) {
-    if (category) renderPunchList(data, category);
+    if (category) {
+      renderPunchList(data, category); goToHash();
+      // Images load after the cards render and can shift the layout; re-align once unless the reader has already scrolled.
+      var moved = false;
+      ['wheel', 'touchmove', 'keydown'].forEach(function (ev) { window.addEventListener(ev, function () { moved = true; }, { passive: true, once: true }); });
+      var realign = function () {
+        if (moved || !location.hash) return;
+        var t = document.getElementById(decodeURIComponent(location.hash.slice(1)));
+        if (t) t.scrollIntoView({ block: 'start' });
+      };
+      window.addEventListener('load', realign);
+      setTimeout(realign, 1200);
+    }
     if (wantsCounts) renderCounts(data);
     if (wantsPriorities) renderPriorities(data);
   }).catch(function () {

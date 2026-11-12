@@ -139,3 +139,15 @@ a.btn.private { --cat: var(--muted); }
 .priorities .card { margin-top: 0; margin-bottom: 12px; }
 
 .desc-link { color: inherit; font-weight: 700; text-decoration: underline; }
+
+.desc.clamped { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 6; line-clamp: 6; overflow: hidden; }
+.more-toggle { background: none; border: 0; padding: 8px 0 4px; min-height: 44px; font: inherit; font-weight: 700; color: var(--text); text-decoration: underline; cursor: pointer; }
+.pri-link { display: flex; align-items: center; gap: 12px; padding: 10px 0; border-top: 1px solid var(--line); color: var(--text); text-decoration: none; min-height: 44px; }
+.pri-link:first-child { border-top: 0; }
+.pri-link .pri-text { flex: 1; font-weight: 600; overflow-wrap: anywhere; }
+.pri-link::after { content: "\203A"; color: var(--muted); font-size: 1.4rem; }
+.pri-link.cat-electrical { --cat: var(--elec); }
+.pri-link.cat-mechanical { --cat: var(--mech); }
+.priorities { padding-bottom: 6px; }
+.card { scroll-margin-top: 12px; }
+.card.flash { outline: 3px solid var(--cat, var(--text)); outline-offset: 2px; transition: outline-color 1s; }
