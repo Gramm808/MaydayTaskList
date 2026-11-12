@@ -199,7 +199,7 @@
         "photos/item-19-a.jpg"
       ],
       "status": "waiting-material",
-      "note": "Waiting on metal pipe fittings and shallow unistrut. Unistrut clamps and brackets are onsite."
+      "note": "Now included in M-43. Waiting on metal pipe fittings and shallow unistrut. Unistrut clamps and brackets are onsite."
     },
     {
       "id": "M-11",
@@ -210,7 +210,7 @@
         "photos/item-20-a.jpg"
       ],
       "status": "waiting-material",
-      "note": "Waiting on metal pipe fittings and shallow unistrut. Unistrut clamps and brackets are onsite."
+      "note": "Now included in M-43. Waiting on metal pipe fittings and shallow unistrut. Unistrut clamps and brackets are onsite."
     },
     {
       "id": "M-12",
@@ -221,7 +221,7 @@
         "photos/item-21-a.jpg"
       ],
       "status": "waiting-material",
-      "note": "Waiting on metal pipe fittings and shallow unistrut. Unistrut clamps and brackets are onsite."
+      "note": "Now included in M-43. Waiting on metal pipe fittings and shallow unistrut. Unistrut clamps and brackets are onsite."
     },
     {
       "id": "M-13",
@@ -232,7 +232,7 @@
         "photos/item-22-a.jpg"
       ],
       "status": "waiting-material",
-      "note": "Waiting on metal pipe fittings and shallow unistrut. Unistrut clamps and brackets are onsite."
+      "note": "Now included in M-43. Waiting on metal pipe fittings and shallow unistrut. Unistrut clamps and brackets are onsite."
     },
     {
       "id": "M-14",
@@ -243,7 +243,7 @@
         "photos/item-23-a.jpg"
       ],
       "status": "waiting-material",
-      "note": "Waiting on metal pipe fittings and shallow unistrut. Unistrut clamps and brackets are onsite."
+      "note": "Now included in M-43. Waiting on metal pipe fittings and shallow unistrut. Unistrut clamps and brackets are onsite."
     },
     {
       "id": "E-10",
@@ -379,7 +379,7 @@
       ],
       "status": "in-progress",
       "note": "Can be done at any point once labor is available. Work on the ducts experiencing issues first.",
-      "current_state": "2 PVC duct supports installed."
+      "current_state": "2 duct supports have been installed so far and did an excellent job of correcting the collapsed duct in those locations. Continue installing them, starting with the larger diameter ducting first."
     },
     {
       "id": "M-22",
@@ -401,7 +401,8 @@
         "photos/item-36-a.jpg"
       ],
       "note": "Depends on M-22 being completed.",
-      "status": "waiting-other"
+      "status": "waiting-other",
+      "current_state": "45 degree elbows are shipping and expected to be delivered Friday, Nov 13."
     },
     {
       "id": "M-24",
@@ -410,7 +411,8 @@
       "description": "Install duct on tank 533.",
       "images": [
         "photos/item-37-a.jpg"
-      ]
+      ],
+      "current_state": "45 degree elbows are shipping and expected to be delivered Friday, Nov 13."
     },
     {
       "id": "E-15",
@@ -585,10 +587,11 @@
       "location": "Tank 107",
       "description": "Install fume hood duct on tank 107.",
       "status": "waiting-material",
-      "note": "Waiting on duct fittings (45° elbows or couplings).",
+      "note": "Waiting on the 45 degree elbows.",
       "images": [
         "photos/item-56-a.jpg"
-      ]
+      ],
+      "current_state": "45 degree elbows are shipping and expected to be delivered Friday, Nov 13."
     },
     {
       "id": "M-39",
