@@ -317,10 +317,11 @@
       "id": "E-11",
       "category": "electrical",
       "location": "All tanks",
-      "description": "Make cable connections to the anode and cathode bars on each tank.\n\nRectifier cables\n\n1. Cable management to the electrode bars.\n\n2. Make up all connections with the proper hardware.\n2.1 Most electrode bars take a 10mm 1.5 bolt.\n2.2 Exceptions:\n    a. The center bars in tanks 311, 223, 211, 129 and 117.\n    b. The electro clean tanks have 6 bars that have 3/8-16 threaded holes.\n2.3 To tell whether a hole is 3/8 or 10mm, try to insert a 10mm bolt. Does it fit and can it be turned in by hand?\n    Yes: the hole is 10mm.\n    No: the hole is 3/8.\n2.4 NOTE: A 3/8 bolt will fit into a 10mm hole but should not be installed that way. That is why the test is done with the 10mm bolt.\n\n3. Route the cables from the bars over the backs of the tanks. Insert spacers that will not melt (cardboard or wood) between the steam lines and the cables.\n\n4. Zip tie the cables together in bundles as you move from the electrode bars down into the aluminum cable tray in the basement.",
+      "description": "Make cable connections to the anode and cathode bars on each tank.\n\nRectifier cables\n\n1. Cable management to the electrode bars.\n\n2. Make up all connections with the proper hardware.\n2.1 Most electrode bars take a 10mm 1.5 bolt.\n2.2 Exceptions:\n    a. The center bars in tanks 311, 223, 211, 129 and 117.\n    b. The electro clean tanks have 6 bars that have 3/8-16 threaded holes.\n2.3 To tell whether a hole is 3/8 or 10mm, try to insert a 10mm bolt. Does it fit and can it be turned in by hand?\n    Yes: the hole is 10mm.\n    No: the hole is 3/8.\n2.4 NOTE: A 3/8 bolt will fit into a 10mm hole but should not be installed that way. That is why the test is done with the 10mm bolt.\n\n3. Route the cables from the bars over the backs of the tanks. Insert spacers that will not melt (cardboard or wood) between the steam lines and the cables. The last photo is an example of the expected final cable routing.\n\n4. Zip tie the cables together in bundles as you move from the electrode bars down into the aluminum cable tray in the basement.",
       "images": [
         "photos/item-30-a.jpg",
-        "photos/item-54-a.jpg"
+        "photos/item-54-a.jpg",
+        "photos/item-65-a.jpg"
       ],
       "status": "in-progress",
       "current_state": "All lugs are installed on cables at tanks. A few modifications are needed to complete the job, including installation of copper extensions, moving some motors, and installing spacers on the electro clean tanks. Additional individual items will be created for each remaining item."
