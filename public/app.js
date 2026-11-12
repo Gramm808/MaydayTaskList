@@ -30,14 +30,14 @@
     return d;
   }
 
-  // Description text; [label](/path) becomes a link (same-site paths or http(s) only).
+  // Description text; [label](/path) becomes a link (same-site paths or http(s) only), opens in a new tab.
   function descNode(text) {
     var d = el('div', 'desc');
     var re = /\[([^\]]+)\]\(((?:\/|https?:\/\/)[^)\s]+)\)/g, last = 0, m;
     while ((m = re.exec(text))) {
       if (m.index > last) d.appendChild(document.createTextNode(text.slice(last, m.index)));
       var link = el('a', 'desc-link', m[1]); link.href = m[2];
-      if (m[2].charAt(0) !== '/') { link.target = '_blank'; link.rel = 'noopener'; }
+      link.target = '_blank'; link.rel = 'noopener';
       d.appendChild(link);
       last = re.lastIndex;
     }
