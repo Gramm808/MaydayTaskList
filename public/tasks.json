@@ -1,7 +1,7 @@
 {
   "title": "Mayday Task List",
   "subtitle": "Items to fix or complete",
-  "updated": "2026-11-12",
+  "updated": "2026-11-13",
   "tasks": [
     {
       "id": "E-1",
@@ -324,7 +324,7 @@
         "photos/item-65-a.jpg"
       ],
       "status": "in-progress",
-      "current_state": "All lugs are installed on cables at tanks. A few modifications are needed to complete the job, including installation of copper extensions, moving some motors, and installing spacers on the electro clean tanks. Additional individual items will be created for each remaining item."
+      "current_state": "Do the Line 1 tanks first so the steam system on Line 1 can be tested. All lugs are installed on cables at tanks. A few modifications are needed to complete the job, including installation of copper extensions, moving some motors, and installing spacers on the electro clean tanks. Additional individual items will be created for each remaining item."
     },
     {
       "id": "M-20",
@@ -653,8 +653,8 @@
     "M-32",
     "M-33",
     "M-43",
+    "E-11",
     "M-44",
-    "M-40",
-    "E-11"
+    "M-40"
   ]
 }
