@@ -274,7 +274,6 @@
         "photos/item-61-a.jpg"
       ],
       "materials": "Onsite.",
-      "current_state": "The contractor spent several hours on this. Most of the work above the grating is complete. Work below the grating is in progress.",
       "done": true
     },
     {
@@ -299,7 +298,6 @@
         "photos/item-28-a.jpg",
         "photos/item-62-a.jpg"
       ],
-      "current_state": "All coils are connected with hoses and leak tested. Still waiting on trolleys to mount the coils in their permanent location.",
       "done": true
     },
     {
@@ -310,7 +308,6 @@
       "images": [
         "photos/item-29-a.jpg"
       ],
-      "note": "Starts after M-18 is complete.",
       "done": true
     },
     {
@@ -335,8 +332,7 @@
         "photos/item-31-a.jpg"
       ],
       "note": "Superseded by M-28.",
-      "done": true,
-      "current_state": "90% complete. Was waiting on 6 spacers and longer bolts."
+      "done": true
     },
     {
       "id": "E-12",
@@ -390,7 +386,6 @@
       "images": [
         "photos/item-35-a.jpg"
       ],
-      "current_state": "One hole has been patched. Measurements have been taken to prepare for rotating the ductwork.",
       "done": true
     },
     {
@@ -466,8 +461,6 @@
         "photos/item-43-a.jpg",
         "photos/item-43-b.jpg"
       ],
-      "current_state": "90% complete.",
-      "note": "Waiting on 2-1/2 in spacers to arrive. Spacers still need to be installed.",
       "done": true
     },
     {
@@ -478,7 +471,6 @@
       "images": [
         "photos/item-44-a.jpg"
       ],
-      "note": "Can proceed at any time.",
       "done": true
     },
     {
@@ -511,7 +503,6 @@
       "images": [
         "photos/item-47-a.jpg"
       ],
-      "current_state": "Parts are in. The team is working on installing them.",
       "done": true
     },
     {
@@ -522,7 +513,6 @@
       "images": [
         "photos/item-48-a.jpg"
       ],
-      "current_state": "Materials are now onsite. Work can start when labor is available.",
       "done": true
     },
     {
@@ -557,7 +547,6 @@
       "images": [
         "photos/item-52-a.jpg"
       ],
-      "current_state": "Materials are now onsite. This can be completed.",
       "done": true
     },
     {
@@ -624,8 +613,6 @@
       "images": [
         "photos/item-59-a.jpg"
       ],
-      "note": "Waiting on strut channel beam mounts (McMaster part no. 1815T18, 2 pair).",
-      "current_state": "90% complete except for the missing unistrut mount, which was not shipped. One split ring hanger still needs to be installed between the pipe and the unistrut to replace the temporary red wire that is supporting the pipe.",
       "done": true
     },
     {
