@@ -1,7 +1,7 @@
 {
   "title": "Mayday Task List",
   "subtitle": "Items to fix or complete",
-  "updated": "2026-11-13",
+  "updated": "2026-11-19",
   "tasks": [
     {
       "id": "E-1",
@@ -198,8 +198,8 @@
       "images": [
         "photos/item-19-a.jpg"
       ],
-      "status": "waiting-material",
-      "note": "Now included in M-43. Waiting on metal pipe fittings and shallow unistrut. Unistrut clamps and brackets are onsite."
+      "note": "Included in M-43.",
+      "done": true
     },
     {
       "id": "M-11",
@@ -209,8 +209,8 @@
       "images": [
         "photos/item-20-a.jpg"
       ],
-      "status": "waiting-material",
-      "note": "Now included in M-43. Waiting on metal pipe fittings and shallow unistrut. Unistrut clamps and brackets are onsite."
+      "note": "Included in M-43.",
+      "done": true
     },
     {
       "id": "M-12",
@@ -220,8 +220,8 @@
       "images": [
         "photos/item-21-a.jpg"
       ],
-      "status": "waiting-material",
-      "note": "Now included in M-43. Waiting on metal pipe fittings and shallow unistrut. Unistrut clamps and brackets are onsite."
+      "note": "Included in M-43.",
+      "done": true
     },
     {
       "id": "M-13",
@@ -231,8 +231,8 @@
       "images": [
         "photos/item-22-a.jpg"
       ],
-      "status": "waiting-material",
-      "note": "Now included in M-43. Waiting on metal pipe fittings and shallow unistrut. Unistrut clamps and brackets are onsite."
+      "note": "Included in M-43.",
+      "done": true
     },
     {
       "id": "M-14",
@@ -242,8 +242,8 @@
       "images": [
         "photos/item-23-a.jpg"
       ],
-      "status": "waiting-material",
-      "note": "Now included in M-43. Waiting on metal pipe fittings and shallow unistrut. Unistrut clamps and brackets are onsite."
+      "note": "Included in M-43.",
+      "done": true
     },
     {
       "id": "E-10",
@@ -273,9 +273,9 @@
         "photos/item-26-a.jpg",
         "photos/item-61-a.jpg"
       ],
-      "status": "in-progress",
       "materials": "Onsite.",
-      "current_state": "The contractor spent several hours on this. Most of the work above the grating is complete. Work below the grating is in progress."
+      "current_state": "The contractor spent several hours on this. Most of the work above the grating is complete. Work below the grating is in progress.",
+      "done": true
     },
     {
       "id": "M-17",
@@ -324,7 +324,7 @@
         "photos/item-65-a.jpg"
       ],
       "status": "in-progress",
-      "current_state": "Do the Line 1 tanks first so the steam system on Line 1 can be tested. All lugs are installed on cables at tanks. A few modifications are needed to complete the job, including installation of copper extensions, moving some motors, and installing spacers on the electro clean tanks. Additional individual items will be created for each remaining item."
+      "current_state": "90% complete. Do the Line 1 tanks first so the steam system on Line 1 can be tested. All lugs are installed on cables at tanks. A few modifications are needed to complete the job, including installation of copper extensions, moving some motors, and installing spacers on the electro clean tanks. Additional individual items will be created for each remaining item."
     },
     {
       "id": "M-20",
@@ -346,9 +346,9 @@
       "images": [
         "photos/item-32-a.jpg"
       ],
-      "status": "waiting-material",
-      "note": "10 covers are onsite. 6 are on order (requested from the office).",
-      "current_state": "Still need to install 16 covers."
+      "status": "ready",
+      "note": "All 16 covers are now onsite.",
+      "current_state": "Still need to install 16 covers. All parts are onsite."
     },
     {
       "id": "E-13",
@@ -422,7 +422,8 @@
       "description": "Install high temperature limit switches on the 3 dryers.",
       "images": [
         "photos/item-38-a.jpg"
-      ]
+      ],
+      "done": true
     },
     {
       "id": "E-16",
@@ -478,7 +479,7 @@
         "photos/item-44-a.jpg"
       ],
       "note": "Can proceed at any time.",
-      "status": "ready"
+      "done": true
     },
     {
       "id": "M-30",
@@ -510,8 +511,8 @@
       "images": [
         "photos/item-47-a.jpg"
       ],
-      "status": "in-progress",
-      "current_state": "Parts are in. The team is working on installing them."
+      "current_state": "Parts are in. The team is working on installing them.",
+      "done": true
     },
     {
       "id": "M-33",
@@ -521,8 +522,8 @@
       "images": [
         "photos/item-48-a.jpg"
       ],
-      "status": "ready",
-      "current_state": "Materials are now onsite. Work can start when labor is available."
+      "current_state": "Materials are now onsite. Work can start when labor is available.",
+      "done": true
     },
     {
       "id": "M-34",
@@ -545,7 +546,7 @@
         "photos/item-51-b.jpg"
       ],
       "materials": "None required.",
-      "note": "Can be worked on any time.",
+      "note": "Verified Nov 19: still needs to be done today.",
       "status": "ready"
     },
     {
@@ -612,7 +613,8 @@
       "description": "Chromate removal tank home run lines to the plating tanks.\n\n1. Run a home run line using 1-1/2\" PVC80 to each of the following tanks, in this order from the top valve down.\n2. 311, 223, 211, 129, 117, as shown in the image.\n3. When installing these lines, make sure there is a minimum of 2 inches between these pipes and any steam or condensate lines.\n4. Once all of these are connected, contact Jerry and let him know. Jerry will make arrangements with the Mayday team to conduct the leak test.",
       "images": [
         "photos/item-64-a.jpg"
-      ]
+      ],
+      "done": true
     },
     {
       "id": "M-41",
@@ -627,18 +629,12 @@
       "done": true
     },
     {
-      "id": "M-42",
-      "category": "mechanical",
-      "location": "Steam piping",
-      "description": "Find and fix any loose steam piping connections. At least one 1-1/2\" pipe is so loose it can be rotated by hand.",
-      "images": []
-    },
-    {
       "id": "M-43",
       "category": "mechanical",
       "location": "Chilled water heat exchangers",
       "description": "Chilled water heat exchangers.\n\nBILLABLE WORK. Contractors must track the number of man hours spent on this project.\n\nThis item includes M-10, M-11, M-12, M-13 and M-14.\n\n1. Build unistrut mounts\n1.1 Unistrut is intended to be cut to 32 inches long. There is enough to do all tanks.\n1.2 Install the 90 degree brackets provided just as done on the first example tank, tank 211.\n1.3 The brackets ordered have 1/2 inch holes, so use the provided 3/8\" stainless flat washers, as done on tank 211.\n\n2. Mount coils to the new mounts and install in tanks\n2.1 Pull the coil from the tank and remove the original hanger.\n2.2 Note which direction the coil goes in the tank so the brackets are not installed in the wrong direction.\n2.3 Install the unistrut brackets on the coil. The brackets can be mounted to the coil spaced 12 inches apart and centered on the center position of the center electrode bar, just as done on example tank 211.\n2.4 Height must put the threaded connections above the rim of the tank, but not higher than practically necessary for routing the piping under or through the fume hoods.\n2.5 Do not penetrate the duct section (fume carrying cavity) of the fume hoods. The wings on either side can be cut to fit piping through.\n2.6 If you must cut through the wings of the fume hood, drill two 2-inch holes with a hole saw, centered with the stainless pipe nipples, then make a cut between the tops and bottoms of those holes to create a clean horizontal oval shape.\n\n3. Install stainless nipples and fittings\n3.1 Install the stainless fittings as done on the example tank.\n3.2 90 degree elbows face away from the tank, to the side.\n3.3 Install 3 in and 6 in nipples in each 90 degree elbow.\n3.4 90 degree elbow to both nipples facing toward the back of the tank.\n3.5 12 inch nipples go horizontal toward the rear of the tank.\n3.6 Install 90 degree elbows onto the 12 inch nipples, pointing down. Plastic starts at this point. Stainless-to-plastic connection points are always female stainless and male plastic.\n\n4. Connect to plastic\n4.1 Reconnect to the existing chilled water piping, using proper pipe spacing, offsets, or other routing for a clean, professional installed appearance.\n4.2 Plastic starts at this point. Stainless-to-plastic connection points are always female stainless and male plastic.",
-      "images": []
+      "images": [],
+      "current_state": "95% complete."
     },
     {
       "id": "M-44",
