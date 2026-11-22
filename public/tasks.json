@@ -56,7 +56,7 @@
         "photos/item-60-a.jpg"
       ],
       "materials": "None required.",
-      "current_state": "Considerable work has taken place on this task. Roughly 20 tanks have had moderate steam piping work done to move steam lines away from PVC piping. Today the team is installing missing clamps throughout the process."
+      "done": true
     },
     {
       "id": "E-2",
@@ -392,9 +392,7 @@
       "images": [
         "photos/item-36-a.jpg"
       ],
-      "note": "Depends on M-22 being completed.",
-      "status": "in-progress",
-      "current_state": "45 degree elbows are shipping and expected to be delivered Friday, Nov 13."
+      "done": true
     },
     {
       "id": "M-24",
@@ -404,8 +402,7 @@
       "images": [
         "photos/item-37-a.jpg"
       ],
-      "current_state": "45 degree elbows are shipping and expected to be delivered Friday, Nov 13.",
-      "status": "in-progress"
+      "done": true
     },
     {
       "id": "E-15",
@@ -574,12 +571,10 @@
       "category": "mechanical",
       "location": "Tank 107",
       "description": "Install fume hood duct on tank 107.",
-      "status": "waiting-material",
-      "note": "Waiting on the 45 degree elbows.",
       "images": [
         "photos/item-56-a.jpg"
       ],
-      "current_state": "45 degree elbows are shipping and expected to be delivered Friday, Nov 13."
+      "done": true
     },
     {
       "id": "M-40",
