@@ -320,8 +320,7 @@
         "photos/item-54-a.jpg",
         "photos/item-65-a.jpg"
       ],
-      "status": "in-progress",
-      "current_state": "90% complete. Do the Line 1 tanks first so the steam system on Line 1 can be tested. All lugs are installed on cables at tanks. A few modifications are needed to complete the job, including installation of copper extensions, moving some motors, and installing spacers on the electro clean tanks. Additional individual items will be created for each remaining item."
+      "done": true
     },
     {
       "id": "M-20",
@@ -342,9 +341,7 @@
       "images": [
         "photos/item-32-a.jpg"
       ],
-      "status": "ready",
-      "note": "All 16 covers are now onsite.",
-      "current_state": "Still need to install 16 covers. All parts are onsite."
+      "done": true
     },
     {
       "id": "E-13",
@@ -353,7 +350,8 @@
       "description": "Fix the hoist electrical connection point. The connections are hanging down and the hoist motor comes in contact with them.",
       "images": [
         "photos/item-33-a.jpg"
-      ]
+      ],
+      "done": true
     },
     {
       "id": "E-14",
@@ -535,8 +533,7 @@
         "photos/item-51-b.jpg"
       ],
       "materials": "None required.",
-      "note": "Verified Nov 19: still needs to be done today.",
-      "status": "ready"
+      "done": true
     },
     {
       "id": "E-17",
