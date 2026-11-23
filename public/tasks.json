@@ -694,6 +694,17 @@
         "photos/item-73-b.jpg",
         "photos/item-73-c.jpg"
       ]
+    },
+    {
+      "id": "E-24",
+      "category": "electrical",
+      "location": "Tank 129",
+      "description": "Heating solenoid is not working. Cooling water works, but not steam.",
+      "images": [
+        "photos/item-74-a.jpg",
+        "photos/item-74-b.jpg",
+        "photos/item-74-c.jpg"
+      ]
     }
   ],
   "priorities": [
