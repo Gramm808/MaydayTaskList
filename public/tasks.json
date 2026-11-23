@@ -444,7 +444,8 @@
       "images": [
         "photos/item-41-a.jpg",
         "photos/item-41-b.jpg"
-      ]
+      ],
+      "done": true
     },
     {
       "id": "M-28",
