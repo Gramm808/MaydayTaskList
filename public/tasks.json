@@ -663,6 +663,16 @@
         "photos/item-70-a.jpg",
         "photos/item-70-b.jpg"
       ]
+    },
+    {
+      "id": "E-22",
+      "category": "electrical",
+      "location": "Tank 303 (Electro Clean)",
+      "description": "Electro clean tank 303 is tripping breaker 1529. The photos show temperature controller 1519TC and the tank 303 sign.",
+      "images": [
+        "photos/item-71-a.jpg",
+        "photos/item-71-b.jpg"
+      ]
     }
   ],
   "priorities": [
