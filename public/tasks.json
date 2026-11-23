@@ -658,7 +658,7 @@
       "id": "E-21",
       "category": "electrical",
       "location": "Tank 223 (Cad Plate (Bright 3))",
-      "description": "Tank 223 has solenoid wiring problems. The controller is calling for cooling. Breaker 1411 trips instantly. Breaker 1414 for the tank heat coil trips as well. The photo shows temperature controller 1404TC.",
+      "description": "Tank 223 has solenoid wiring problems. The controller is calling for cooling. Breaker 1411 trips instantly. Breaker 1414 for the tank heat coil trips as well.",
       "images": [
         "photos/item-70-a.jpg",
         "photos/item-70-b.jpg"
@@ -668,7 +668,7 @@
       "id": "E-22",
       "category": "electrical",
       "location": "Tank 303 (Electro Clean)",
-      "description": "Electro clean tank 303 is tripping breaker 1529. The photos show temperature controller 1519TC and the tank 303 sign.",
+      "description": "Electro clean tank 303 is tripping breaker 1529.",
       "images": [
         "photos/item-71-a.jpg",
         "photos/item-71-b.jpg"
@@ -678,7 +678,7 @@
       "id": "E-23",
       "category": "electrical",
       "location": "Tank 311",
-      "description": "Breaker CB1543 is tripping. This is the heating solenoid. Breaker CB1541 for the cooling water works. The photos show temperature controller 1534TC and the breakers.",
+      "description": "Breaker CB1543 is tripping. This is the heating solenoid. Breaker CB1541 for the cooling water works.",
       "images": [
         "photos/item-72-a.jpg",
         "photos/item-72-b.jpg"
