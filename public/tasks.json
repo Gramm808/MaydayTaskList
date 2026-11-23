@@ -653,6 +653,15 @@
         "photos/item-69-b.jpg",
         "photos/item-69-c.jpg"
       ]
+    },
+    {
+      "id": "E-21",
+      "category": "electrical",
+      "location": "Tank 223",
+      "description": "Tank 223 has solenoid wiring problems. The controller is calling for cooling. Breaker 1411 trips instantly. The photo shows temperature controller 1404TC.",
+      "images": [
+        "photos/item-70-a.jpg"
+      ]
     }
   ],
   "priorities": [
