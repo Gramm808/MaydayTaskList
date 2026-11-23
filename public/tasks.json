@@ -660,7 +660,8 @@
       "location": "Tank 223 (Cad Plate (Bright 3))",
       "description": "Tank 223 has solenoid wiring problems. The controller is calling for cooling. Breaker 1411 trips instantly. Breaker 1414 for the tank heat coil trips as well. The photo shows temperature controller 1404TC.",
       "images": [
-        "photos/item-70-a.jpg"
+        "photos/item-70-a.jpg",
+        "photos/item-70-b.jpg"
       ]
     }
   ],
