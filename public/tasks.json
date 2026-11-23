@@ -622,6 +622,16 @@
       "images": [
         "photos/item-66-a.jpg"
       ]
+    },
+    {
+      "id": "E-18",
+      "category": "electrical",
+      "location": "Temperature controller 1719TC (Zn-Ni Plate #2, Tank 2822)",
+      "description": "Temperature controller 1719TC. Wires 1726 and 1729 were supplying the wrong coils' voltage. The wires were flipped at the terminals so the controller operates properly. The wires now need to be relabeled to match. See photos.",
+      "images": [
+        "photos/item-67-a.jpg",
+        "photos/item-67-b.jpg"
+      ]
     }
   ],
   "priorities": [
