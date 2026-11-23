@@ -683,6 +683,17 @@
         "photos/item-72-a.jpg",
         "photos/item-72-b.jpg"
       ]
+    },
+    {
+      "id": "M-46",
+      "category": "mechanical",
+      "location": "Tank 114",
+      "description": "Chilled water solenoid valve is in backwards.",
+      "images": [
+        "photos/item-73-a.jpg",
+        "photos/item-73-b.jpg",
+        "photos/item-73-c.jpg"
+      ]
     }
   ],
   "priorities": [
