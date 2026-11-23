@@ -673,6 +673,16 @@
         "photos/item-71-a.jpg",
         "photos/item-71-b.jpg"
       ]
+    },
+    {
+      "id": "E-23",
+      "category": "electrical",
+      "location": "Tank 311",
+      "description": "Breaker CB1543 is tripping. This is the heating solenoid. Breaker CB1541 for the cooling water works. The photos show temperature controller 1534TC and the breakers.",
+      "images": [
+        "photos/item-72-a.jpg",
+        "photos/item-72-b.jpg"
+      ]
     }
   ],
   "priorities": [
