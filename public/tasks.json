@@ -1,7 +1,7 @@
 {
   "title": "Mayday Task List",
   "subtitle": "Items to fix or complete",
-  "updated": "2026-11-22",
+  "updated": "2026-11-23",
   "tasks": [
     {
       "id": "E-1",
@@ -612,6 +612,15 @@
       "images": [],
       "note": "This will likely be a lot of: turn steam on, note leaks, turn steam off, allow to cool down, fix leaks, repeat.",
       "status": "in-progress"
+    },
+    {
+      "id": "M-45",
+      "category": "mechanical",
+      "location": "Tank 113",
+      "description": "Steam lines need to be offset away from tank 113. The line is up against the plastic tank wall.",
+      "images": [
+        "photos/item-66-a.jpg"
+      ]
     }
   ],
   "priorities": [
