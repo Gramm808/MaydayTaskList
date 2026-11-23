@@ -642,6 +642,17 @@
         "photos/item-68-a.jpg",
         "photos/item-68-b.jpg"
       ]
+    },
+    {
+      "id": "E-20",
+      "category": "electrical",
+      "location": "Temperature controllers 1819TC (Alkaline Clean, Tank 2902) and 1834TC (Electro Clean, Tank 2904)",
+      "description": "The alkaline clean and electro clean solenoid valves were reversed. Wires 1829 and 1844 were flipped at the terminals so they operate properly. The wires now need to be relabeled to match. See photos.",
+      "images": [
+        "photos/item-69-a.jpg",
+        "photos/item-69-b.jpg",
+        "photos/item-69-c.jpg"
+      ]
     }
   ],
   "priorities": [
