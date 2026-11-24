@@ -716,6 +716,13 @@
         "photos/item-75-b.jpg",
         "photos/item-75-c.jpg"
       ]
+    },
+    {
+      "id": "E-26",
+      "category": "electrical",
+      "location": "Exhaust Fan #2",
+      "description": "Exhaust Fan #2 keeps tripping the breaker before the soft start shifts into phase lock.",
+      "images": []
     }
   ],
   "priorities": [
