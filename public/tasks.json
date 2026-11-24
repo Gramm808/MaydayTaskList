@@ -433,8 +433,8 @@
       "images": [
         "photos/item-40-a.jpg"
       ],
-      "status": "ready",
-      "materials": "Appear to be onsite."
+      "materials": "Appear to be onsite.",
+      "done": true
     },
     {
       "id": "M-26",
